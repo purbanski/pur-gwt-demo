@@ -3,22 +3,31 @@ package pur.gwtplatform.samples.presenter;
 import java.util.ArrayList;
 import java.util.List;
 
+import pur.gwtplatform.samples.events.CodeChoisiEvent;
 import pur.gwtplatform.samples.events.DicoCompleteEvent;
 import pur.gwtplatform.samples.events.DicoCompleteEvent.InsertCompleteHandler;
+import pur.gwtplatform.samples.events.SearchCompleteEvent;
+import pur.gwtplatform.samples.events.SearchCompleteEvent.SearchCompleteHandler;
 import pur.gwtplatform.samples.events.UpdateDataGridEvent;
 import pur.gwtplatform.samples.model.Data;
+import pur.gwtplatform.samples.model.ElementResult;
 import pur.gwtplatform.samples.services.DataService;
 import pur.gwtplatform.samples.views.IDeleteDialogView;
 
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
-import com.google.gwt.event.dom.client.KeyPressEvent;
-import com.google.gwt.event.dom.client.KeyPressHandler;
+import com.google.gwt.event.dom.client.KeyUpEvent;
+import com.google.gwt.event.dom.client.KeyUpHandler;
 import com.google.gwt.event.logical.shared.SelectionEvent;
 import com.google.gwt.event.logical.shared.SelectionHandler;
+import com.google.gwt.user.cellview.client.DataGrid;
+import com.google.gwt.user.cellview.client.TextColumn;
+import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.MultiWordSuggestOracle;
 import com.google.gwt.user.client.ui.SuggestOracle;
 import com.google.gwt.user.client.ui.SuggestOracle.Suggestion;
+import com.google.gwt.view.client.SelectionChangeEvent;
+import com.google.gwt.view.client.SingleSelectionModel;
 import com.google.inject.Inject;
 import com.google.web.bindery.event.shared.EventBus;
 import com.gwtplatform.mvp.client.PresenterWidget;
@@ -27,6 +36,53 @@ public class DeleteDialogPresenter extends PresenterWidget<IDeleteDialogView> {
 	private EventBus eventBus;
 	private MultiWordSuggestOracle oracle = new MultiWordSuggestOracle();
 	List<Data> array = new ArrayList<Data>();
+	private List<ElementResult> liste = new ArrayList<ElementResult>(10);
+	private DataGrid dataGrid = null;
+	private TextColumn<ElementResult> kColumn = new TextColumn<ElementResult>() {
+
+		@Override
+		public String getValue(ElementResult data) {
+			return data.getK();
+		}
+	};
+
+	private TextColumn<ElementResult> nColumn = new TextColumn<ElementResult>() {
+
+		@Override
+		public String getValue(ElementResult data) {
+			return data.getN();
+		}
+	};
+	private TextColumn<ElementResult> oColumn = new TextColumn<ElementResult>() {
+
+		@Override
+		public String getValue(ElementResult data) {
+			return data.getO();
+		}
+	};
+	private TextColumn<ElementResult> pColumn = new TextColumn<ElementResult>() {
+
+		@Override
+		public String getValue(ElementResult data) {
+			return data.getP();
+		}
+	};
+
+	private TextColumn<ElementResult> lColumn = new TextColumn<ElementResult>() {
+
+		@Override
+		public String getValue(ElementResult data) {
+			return data.getL();
+		}
+	};
+	private TextColumn<ElementResult> hColumn = new TextColumn<ElementResult>() {
+
+		@Override
+		public String getValue(ElementResult data) {
+			return data.getHighs();
+		}
+	};
+	
 	@Inject
 	private DataService dataService;
 
@@ -40,8 +96,10 @@ public class DeleteDialogPresenter extends PresenterWidget<IDeleteDialogView> {
 	protected void onBind() {
 		super.onBind();
 		enregistrerBoutonAnnuler();
+		enregistrerBoutonRechercher();
 		gererAutoCompleteBox();
 		gererEvenements();
+		initDataGrid();
 	}
 
 	private void enregistrerBoutonAnnuler() {
@@ -49,6 +107,16 @@ public class DeleteDialogPresenter extends PresenterWidget<IDeleteDialogView> {
 			@Override
 			public void onClick(ClickEvent event) {
 				getView().asWidget().hide();
+			}
+		}));
+	}
+
+	private void enregistrerBoutonRechercher() {
+		registerHandler(getView().getRechercherBouton().addClickHandler(new ClickHandler() {
+			@Override
+			public void onClick(ClickEvent event) {
+				String query = getView().getAutoCompleteBox().getText();
+				appelServiceIndex(query);
 			}
 		}));
 	}
@@ -61,20 +129,21 @@ public class DeleteDialogPresenter extends PresenterWidget<IDeleteDialogView> {
 					public void onSelection(SelectionEvent<Suggestion> event) {
 						String query = event.getSelectedItem().getReplacementString();
 						eventBus.fireEvent(new UpdateDataGridEvent(query));
+						appelServiceIndex(query);
 					}
 				}));
 
-		registerHandler(getView().getAutoCompleteBox().addKeyPressHandler(new KeyPressHandler() {
+		registerHandler(getView().getAutoCompleteBox().addKeyUpHandler(new KeyUpHandler() {
 
 			@Override
-			public void onKeyPress(KeyPressEvent event) {
+			public void onKeyUp(KeyUpEvent event) {
 				String texte = getView().getAutoCompleteBox().getText();
 				if (texte.length() > 0) {
 					dataService.getDataDico(array, texte);
+					//appelServiceIndex(texte);
 				}
 			}
 		}));
-
 	}
 
 	private void refreshAutoCompBox() {
@@ -91,5 +160,55 @@ public class DeleteDialogPresenter extends PresenterWidget<IDeleteDialogView> {
 				refreshAutoCompBox();
 			}
 		}));
+		registerHandler(eventBus.addHandler(SearchCompleteEvent.TYPE, new SearchCompleteHandler() {
+			public void onSearchComplete(SearchCompleteEvent event) {
+				refreshDataGrid();
+			}
+		}));
 	}
+
+	private void initDataGrid() {
+
+		dataGrid = getView().getGrilleResultat();
+		dataGrid.setSize("1190px", "700px");
+		dataGrid.addColumn(kColumn, "SC NAF3142");
+		dataGrid.addColumn(lColumn, "Libell\u00E9 NAF3142");
+		dataGrid.addColumn(nColumn, "CodePck 1");
+		dataGrid.addColumn(oColumn, "CodePck 2");
+		dataGrid.addColumn(pColumn, "CodePck 3");
+		dataGrid.addColumn(hColumn, "Highs");
+		dataGrid.setRowData(liste);
+		dataGrid.setColumnWidth(kColumn, "100px");
+		dataGrid.setColumnWidth(nColumn, "100px");
+		dataGrid.setColumnWidth(oColumn, "100px");
+		dataGrid.setColumnWidth(pColumn, "100px");
+		dataGrid.setColumnWidth(lColumn, "300px");
+		dataGrid.setColumnWidth(hColumn, "480px");
+		dataGrid.setRowData(liste);
+		
+		
+		 // Add a selection model to handle user selection.
+	    final SingleSelectionModel<ElementResult> selectionModel = new SingleSelectionModel<ElementResult>();
+	    dataGrid.setSelectionModel(selectionModel);
+	    selectionModel.addSelectionChangeHandler(new SelectionChangeEvent.Handler() {
+	      public void onSelectionChange(SelectionChangeEvent event) {
+	    	  ElementResult selected = selectionModel.getSelectedObject();
+	        if (selected != null) {	         
+	          eventBus.fireEvent(new CodeChoisiEvent(selected.getN()));
+	        }
+	      }
+	    });
+		
+	}
+
+	private void appelServiceIndex(String query) {
+		liste.clear();
+		dataService.getDataIndex(liste, query);
+	}
+
+	private void refreshDataGrid() {
+		dataGrid.setRowData(liste);
+		dataGrid.setRowCount(liste.size());
+	}
+
 }

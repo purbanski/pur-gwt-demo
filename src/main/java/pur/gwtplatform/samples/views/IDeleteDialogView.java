@@ -1,14 +1,19 @@
 package pur.gwtplatform.samples.views;
 
+import com.google.gwt.user.cellview.client.DataGrid;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.PopupPanel;
 import com.google.gwt.user.client.ui.SuggestBox;
 import com.gwtplatform.mvp.client.PopupView;
 
 public interface IDeleteDialogView extends PopupView {
-	public Button getAnnulerButton();
+	Button getAnnulerButton();
 
-	public SuggestBox getAutoCompleteBox();
-	
+	SuggestBox getAutoCompleteBox();
+
 	PopupPanel asWidget();
+
+	DataGrid getGrilleResultat();
+
+	Button getRechercherBouton();
 }

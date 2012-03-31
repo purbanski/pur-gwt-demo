@@ -6,19 +6,17 @@
 	ui:generateKeys='com.google.gwt.i18n.rebind.keygen.MD5KeyGenerator'
 	ui:generateLocales='default' xmlns:p1="urn:import:com.google.gwt.user.cellview.client">
 
-	<g:HTMLPanel width="1050px" height="1050px">
-		<g:LayoutPanel width="1245px" height="950px">
-			<g:layer left="10px" top="18px" bottom="25px" right="179px">
-				<g:VerticalPanel ui:field="panel1" borderWidth="2" width="1050px" height="850px">
-					<g:HorizontalPanel horizontalAlignment="ALIGN_CENTER">
-						<g:Cell verticalAlignment="ALIGN_MIDDLE">
-							<g:Label text="Les résultats de la recherche" ui:field="labelStock" styleName="gwt-RichTextToolbar" width="854px" height="42px"/>
-						</g:Cell>
-						<g:Button text="Ouvrir popup de recherche" ui:field="popupButton" width="190px" height="49px"/>
+	<g:HTMLPanel width="1050px" height="350px">
+		<g:LayoutPanel width="1050px" height="56px">
+			<g:layer left="0px" top="0px" bottom="6px" right="0px">
+				<g:VerticalPanel ui:field="panel1" borderWidth="0" width="1050px" height="50px">
+					<g:HorizontalPanel horizontalAlignment="ALIGN_CENTER" width="838px" height="38px">
+						<g:HorizontalPanel width="274px" height="38px">
+							<g:Label text="Code choisi : " horizontalAlignment="ALIGN_RIGHT"/>
+							<g:Label width="147px" ui:field="code"/>
+						</g:HorizontalPanel>
+						<g:Button text="Ouvrir popup de recherche" ui:field="popupButton" width="178px" height="27px"/>
 					</g:HorizontalPanel>
-					<g:Cell verticalAlignment="ALIGN_MIDDLE">
-						<p1:DataGrid width="1050px" height="850px" ui:field="dataGrid" title="Les résultats de la recherche"/>
-					</g:Cell>
 				</g:VerticalPanel>
 			</g:layer>
 		</g:LayoutPanel>

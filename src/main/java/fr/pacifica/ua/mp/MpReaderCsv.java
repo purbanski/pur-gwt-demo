@@ -102,7 +102,7 @@ public class MpReaderCsv {
 			
 			Index index = Index.NOT_ANALYZED;
 			if (i < 20) {
-				if (libellesCsv[i].startsWith("LIBELLE")) {
+				if (libellesCsv[i].startsWith("LIBELLE") || libellesCsv[i].startsWith("CODE") ) {
 					index = Index.ANALYZED;
 				}
 			} else {

@@ -3,29 +3,28 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
 	xmlns:g='urn:import:com.google.gwt.user.client.ui' ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
 	ui:generateKeys='com.google.gwt.i18n.rebind.keygen.MD5KeyGenerator'
-	ui:generateLocales='default'>
+	ui:generateLocales='default' xmlns:p1="urn:import:com.google.gwt.user.cellview.client">
 
-	<g:DialogBox modal="true" width="500px" height="245px">
+	<g:DialogBox modal="true" glassEnabled="true">
 		<g:caption>
-			<b>Popup de recherche</b>
+			<b>Widget de recherche</b>
 		</g:caption>
-		<g:HTMLPanel width="460px" height="199px">
-			<g:LayoutPanel width="460px" height="180px">
-				<g:layer left="0px" width="500px" top="15px" height="76px">
-					<g:VerticalPanel width="460px" height="40px">
-						<g:HorizontalPanel width="323px"
+		<g:HTMLPanel width="1190px" height="840px">
+			<g:LayoutPanel width="1190px" height="788px">
+				<g:layer left="211px" width="491px" top="55px" height="50px">
+					<g:VerticalPanel width="376px" height="50px">
+						<g:HorizontalPanel width="370px"
 							verticalAlignment="ALIGN_MIDDLE">
-							<g:Label text="Rechercher:" horizontalAlignment="ALIGN_RIGHT"
-								styleName="gwt-RichTextToolbar" />
-							<g:SuggestBox ui:field="autoCompleteBox" focus="true" />
+							<g:SuggestBox ui:field="autoCompleteBox" focus="true" width="267px" />
+							<g:Button text="Rechercher" ui:field="rechercherBouton"/>
 						</g:HorizontalPanel>
 					</g:VerticalPanel>
 				</g:layer>
-				<g:layer left="0px" width="460px" top="136px" height="44px">
-					<g:HorizontalPanel spacing="10" width="460px"
-						horizontalAlignment="ALIGN_CENTER">
-						<g:Button ui:field="annulerButton" text="Annuler" width="102" />
-					</g:HorizontalPanel>
+				<g:layer left="0px" width="1190px" top="129px" height="700px">
+					<p1:DataGrid width="1190px" height="700px" ui:field="grilleResultat" title="Les résultats de la recherche" pageSize="10"/>
+				</g:layer>
+				<g:layer left="976px" width="161px" top="55px" height="24px">
+					<g:Button ui:field="annulerButton" text="Fermer le widget" width="102" />
 				</g:layer>
 			</g:LayoutPanel>
 		</g:HTMLPanel>

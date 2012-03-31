@@ -26,23 +26,12 @@ public class MainView extends ViewImpl implements IMainView {
 	public Widget asWidget() {
 		return widget;
 	}
-	@UiField(provided = true)
-	DataGrid<Object> dataGrid = new DataGrid<Object>();
-	@UiField
-	Label labelStock;
 	@UiField
 	VerticalPanel panel1;
 	@UiField
 	Button popupButton;
+	@UiField Label code;
 
-
-	public DataGrid<Object> getDataGrid() {
-		return dataGrid;
-	}
-
-	public Label getLabelStock() {
-		return labelStock;
-	}
 
 	public VerticalPanel getPanel1() {
 		return panel1;
@@ -50,6 +39,10 @@ public class MainView extends ViewImpl implements IMainView {
 
 	public Button getPopupButton() {
 		return popupButton;
+	}
+
+	public Label getCode() {
+		return code;
 	}
 
 

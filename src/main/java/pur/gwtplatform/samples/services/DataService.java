@@ -56,7 +56,11 @@ public class DataService {
 				for (int i = 0; i < array.size(); i++) {
 					ElementResult elementResult = new ElementResult();
 					JSONObject jsObject = array.get(i).isObject();
-					elementResult.setL(jsObject.get("highs").isString().stringValue());
+					elementResult.setL(jsObject.get("l").isString().stringValue());
+					elementResult.setN(jsObject.get("n").isString().stringValue());
+					elementResult.setO(jsObject.get("o").isString().stringValue());
+					elementResult.setP(jsObject.get("p").isString().stringValue());
+					elementResult.setTokensHigh(jsObject.get("highs").isString().stringValue());
 					elementResult.setK(jsObject.get("k").isString().stringValue());				
 					liste.add(elementResult);
 				}

@@ -8,6 +8,7 @@ import com.google.gwt.user.client.ui.SuggestBox;
 import com.google.inject.Inject;
 import com.google.web.bindery.event.shared.EventBus;
 import com.gwtplatform.mvp.client.PopupViewImpl;
+import com.google.gwt.user.cellview.client.DataGrid;
 
 public class DeleteDialogView extends PopupViewImpl implements IDeleteDialogView {
 
@@ -30,7 +31,9 @@ public class DeleteDialogView extends PopupViewImpl implements IDeleteDialogView
 	@UiField
 	SuggestBox autoCompleteBox;
 	@UiField
-	Button annulerButton;
+	Button annulerButton;	
+	@UiField DataGrid grilleResultat;
+	@UiField Button rechercherBouton;
 
 
 	public Button getAnnulerButton() {
@@ -40,4 +43,14 @@ public class DeleteDialogView extends PopupViewImpl implements IDeleteDialogView
 	public SuggestBox getAutoCompleteBox() {
 		return autoCompleteBox;
 	}
+
+	public DataGrid getGrilleResultat() {
+		return grilleResultat;
+	}
+
+	public Button getRechercherBouton() {
+		return rechercherBouton;
+	}
+	
+	
 }
