@@ -2,10 +2,8 @@ package pur.gwtplatform.samples.views;
 
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
-import com.google.gwt.user.cellview.client.DataGrid;
 import com.google.gwt.user.client.ui.Button;
-import com.google.gwt.user.client.ui.Label;
-import com.google.gwt.user.client.ui.VerticalPanel;
+import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.inject.Inject;
 import com.gwtplatform.mvp.client.ViewImpl;
@@ -27,22 +25,16 @@ public class MainView extends ViewImpl implements IMainView {
 		return widget;
 	}
 	@UiField
-	VerticalPanel panel1;
-	@UiField
 	Button popupButton;
-	@UiField Label code;
+	@UiField HTMLPanel htmlPanel;
 
-
-	public VerticalPanel getPanel1() {
-		return panel1;
-	}
 
 	public Button getPopupButton() {
 		return popupButton;
 	}
 
-	public Label getCode() {
-		return code;
+	public HTMLPanel getHtmlPanel() {
+		return htmlPanel;
 	}
 
 

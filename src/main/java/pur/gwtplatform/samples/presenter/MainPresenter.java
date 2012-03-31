@@ -6,10 +6,10 @@ import pur.gwtplatform.samples.modules.NameTokens;
 import pur.gwtplatform.samples.views.IMainView;
 
 import com.google.gwt.dom.client.Document;
-import com.google.gwt.dom.client.Element;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.shared.GwtEvent.Type;
+import com.google.gwt.user.client.ui.RootPanel;
 import com.google.inject.Inject;
 import com.google.web.bindery.event.shared.EventBus;
 import com.gwtplatform.dispatch.shared.DispatchAsync;
@@ -59,6 +59,8 @@ public class MainPresenter extends Presenter<IMainView, MainPresenter.MyProxy> {
 		super.onBind();
 		gererEvenements();
 		enregistrerBoutonOuvPopup();
+		RootPanel root = RootPanel.get("gwt");
+		root.add(getView().getPopupButton());
 	}
 
 	private void enregistrerBoutonOuvPopup() {
@@ -75,8 +77,8 @@ public class MainPresenter extends Presenter<IMainView, MainPresenter.MyProxy> {
 		registerHandler(eventBus.addHandler(CodeChoisiEvent.TYPE, new CodeChoisiHandler() {
 			@Override
 			public void onCodeChoisi(CodeChoisiEvent event) {
-				getView().getCode().setText(event.getCode());			
-				Document.get().getElementById("codePck").setAttribute("value", event.getCode());				
+				// getView().getCode().setText(event.getCode());
+				Document.get().getElementById("codePck").setAttribute("value", event.getCode());
 			}
 		}));
 

@@ -196,6 +196,7 @@ public class DeleteDialogPresenter extends PresenterWidget<IDeleteDialogView> {
 	        if (selected != null) {	         
 	          eventBus.fireEvent(new CodeChoisiEvent(selected.getN()));
 	        }
+	        getView().asWidget().hide();
 	      }
 	    });
 		

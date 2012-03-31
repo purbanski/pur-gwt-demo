@@ -6,18 +6,12 @@
 	ui:generateKeys='com.google.gwt.i18n.rebind.keygen.MD5KeyGenerator'
 	ui:generateLocales='default' xmlns:p1="urn:import:com.google.gwt.user.cellview.client">
 
-	<g:HTMLPanel width="1050px" height="350px">
-		<g:LayoutPanel width="1050px" height="56px">
-			<g:layer left="0px" top="0px" bottom="6px" right="0px">
-				<g:VerticalPanel ui:field="panel1" borderWidth="0" width="1050px" height="50px">
-					<g:HorizontalPanel horizontalAlignment="ALIGN_CENTER" width="838px" height="38px">
-						<g:HorizontalPanel width="274px" height="38px">
-							<g:Label text="Code choisi : " horizontalAlignment="ALIGN_RIGHT"/>
-							<g:Label width="147px" ui:field="code"/>
-						</g:HorizontalPanel>
+	<g:HTMLPanel width="1050px" height="350px" ui:field="htmlPanel">
+		<g:LayoutPanel width="842px" height="56px">
+			<g:layer>
+				<g:HorizontalPanel horizontalAlignment="ALIGN_CENTER" width="838px" height="38px">
 						<g:Button text="Ouvrir popup de recherche" ui:field="popupButton" width="178px" height="27px"/>
 					</g:HorizontalPanel>
-				</g:VerticalPanel>
 			</g:layer>
 		</g:LayoutPanel>
 		
