@@ -10,7 +10,7 @@
 		<g:LayoutPanel width="842px" height="56px">
 			<g:layer>
 				<g:HorizontalPanel horizontalAlignment="ALIGN_CENTER" width="838px" height="38px">
-						<g:Button text="Ouvrir popup de recherche" ui:field="popupButton" width="178px" height="27px"/>
+						<g:Button text="Widget de recherche" ui:field="popupButton" width="144px" height="27px"/>
 					</g:HorizontalPanel>
 			</g:layer>
 		</g:LayoutPanel>
