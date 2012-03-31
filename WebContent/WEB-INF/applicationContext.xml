@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+	default-autowire="byName">
+
+	<!-- Import des paramétrages de déploiement -->
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations" value="classpath:applicationConfig.properties" />
+	</bean>
+	<bean name="indexMP" class="fr.pacifica.ua.mp.IndexMP">
+		<constructor-arg value="file:${indexLucFSDirectory.mp}"/>
+		<property name="readerMp" ref="readerCsvMP"/>
+	</bean>
+	<bean name="readerCsvMP" class="fr.pacifica.ua.mp.MpReaderCsv" >
+		<constructor-arg value="file:${data2_csv.mp}"/>
+	</bean>
+	
+	<bean name="indexCO" class="fr.pacifica.ua.co.IndexCO">
+		<constructor-arg value="file:${indexLucFSDirectory.co}"/>
+		<property name="readerCO" ref="readerCOCsv"/>
+	</bean>
+	<bean name="readerCOCsv" class="fr.pacifica.ua.co.ReaderCOCsv" >
+		<constructor-arg value="file:${dataA_csv.co}"/>
+	</bean>
+</beans>

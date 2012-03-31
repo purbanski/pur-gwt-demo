@@ -1,0 +1,617 @@
+NAF rév. 2, 2008 - Niveau 4 - Liste des classes;;Statut des activités par classe NAF;REMARQUES;Potentiel marché;NOMBRE ;;;;REPARTITION ;;;
+Code;Libellé;;;;0 salarié;< à 6 salariés;< à 10 salariés;< 20 salariés;0 salarié;< à 6 salariés;< à 10 salariés;< 20 salariés
+01.11;Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses;R;;144027;130873;143652;143893;143983;0,908669902;0,997396322;0,999069619;0,999694502
+01.12;Culture du riz;R;;98;57;91;98;98;0,581632653;0,928571429;1;1
+01.13;Culture de légumes, de melons, de racines et de tubercules;R;;18406;14831;17705;18044;18263;0,805769858;0,961914593;0,9803325;0,992230794
+01.14;Culture de la canne à sucre;R;;5264;5017;5235;5247;5258;0,953077508;0,994490881;0,996770517;0,998860182
+01.15;Culture du tabac;R;;247;207;246;247;247;0,83805668;0,995951417;1;1
+01.16;Culture de plantes à fibres;R;;15;11;15;15;15;0,733333333;1;1;1
+01.19;Autres cultures non permanentes;R;;5590;4154;5262;5420;5527;0,743112701;0,941323792;0,969588551;0,988729875
+01.21;Culture de la vigne;R;;85758;68084;83909;85047;85587;0,79390844;0,978439329;0,991709228;0,998006017
+01.22;Culture de fruits tropicaux et subtropicaux;R;;2365;2100;2248;2279;2297;0,88794926;0,950528541;0,963636364;0,971247357
+01.23;Culture d'agrumes;R;;101;68;84;89;98;0,673267327;0,831683168;0,881188119;0,97029703
+01.24;Culture de fruits à pépins et à noyau;R;;15379;11865;14782;15105;15287;0,7715066;0,961180831;0,982183497;0,994017817
+01.25;Culture d'autres fruits d'arbres ou d'arbustes et de fruits à coque;R;;1282;1162;1271;1277;1281;0,906396256;0,991419657;0,996099844;0,999219969
+01.26;Culture de fruits oléagineux;R;;692;639;689;692;692;0,923410405;0,99566474;1;1
+01.27;Culture de plantes à boissons;R;;12;11;11;12;12;0,916666667;0,916666667;1;1
+01.28;Culture de plantes à épices, aromatiques, médicinales et pharmaceutiques;R;;589;570;584;588;589;0,967741935;0,991511036;0,998302207;1
+01.29;Autres cultures permanentes;R;;89;82;86;86;88;0,921348315;0,966292135;0,966292135;0,988764045
+01.30;Reproduction de plantes;R;;3617;2498;3340;3486;3554;0,690627592;0,923417197;0,96378214;0,98258225
+01.41;Élevage de vaches laitières;R;;67376;62117;67336;67357;67371;0,9219455;0,999406317;0,999718;0,99992579
+01.42;Élevage d'autres bovins et de buffles;R;;78000;73803;77967;77991;77996;0,946192308;0,999576923;0,999884615;0,999948718
+01.43;Élevage de chevaux et d'autres équidés;R;;14223;12782;14130;14192;14215;0,898685228;0,993461295;0,997820432;0,999437531
+01.44;Élevage de chameaux et d'autres camélidés;R;;29;29;29;29;29;1;1;1;1
+01.45;Élevage d'ovins et de caprins;R;;23025;21906;22997;23015;23023;0,951400651;0,998783931;0,999565689;0,999913138
+01.46;Élevage de porcins;R;;7581;5374;7464;7552;7576;0,708877457;0,98456668;0,996174647;0,999340456
+01.47;Élevage de volailles;R;;11939;9849;11649;11771;11863;0,824943463;0,975709858;0,98592847;0,993634308
+01.49;Élevage d'autres animaux;R;;12036;11439;11978;12006;12020;0,950398804;0,995181123;0,997507478;0,998670655
+01.50;Culture et élevage associés;R;;48809;42413;48692;48770;48797;0,868958594;0,997602901;0,999200967;0,999754144
+01.61;Activités de soutien aux cultures;R;;21289;17118;20608;20989;21215;0,804077223;0,968011649;0,985908216;0,996524026
+01.62;Activités de soutien à la production animale;R;;2673;2166;2503;2555;2600;0,810325477;0,936401048;0,955854845;0,972689862
+01.63;Traitement primaire des récoltes;R;;43;36;40;40;42;0,837209302;0,930232558;0,930232558;0,976744186
+01.64;Traitement des semences;R;;7;2;4;6;7;0,285714286;0,571428571;0,857142857;1
+01.70;Chasse, piégeage et services annexes;R;;96;62;91;93;96;0,645833333;0,947916667;0,96875;1
+02.10;Sylviculture et autres activités forestières;R;;9107;8779;9080;9093;9105;0,963983749;0,997035248;0,998462721;0,999780389
+02.20;Exploitation forestière;R;;9610;7973;9353;9495;9581;0,829656608;0,973257024;0,988033299;0,99698231
+02.30;Récolte de produits forestiers non ligneux poussant à l'état sauvage;R;;67;64;66;66;66;0,955223881;0,985074627;0,985074627;0,985074627
+02.40;Services de soutien à l'exploitation forestière;R;;7449;6583;7363;7416;7440;0,883742784;0,988454826;0,995569875;0,998791784
+03.11;Pêche en mer;R;;7268;5753;6987;7199;7248;0,791552009;0,961337369;0,990506329;0,997248211
+03.12;Pêche en eau douce;R;;298;284;297;298;298;0,953020134;0,996644295;1;1
+03.21;Aquaculture en mer;R;;3855;2512;3635;3759;3817;0,651621271;0,942931258;0,975097276;0,990142672
+03.22;Aquaculture en eau douce;R;;830;638;801;815;827;0,768674699;0,965060241;0,981927711;0,996385542
+05.10;Extraction de houille;R;;9;4;6;6;8;0,444444444;0,666666667;0,666666667;0,888888889
+05.20;Extraction de lignite;R;;;;;;;;;;
+06.10;Extraction de pétrole brut;R;;71;63;66;66;67;0,887323944;0,929577465;0,929577465;0,943661972
+06.20;Extraction de gaz naturel;R;;4;3;3;3;3;0,75;0,75;0,75;0,75
+07.10;Extraction de minerais de fer;R;;6;5;6;6;6;0,833333333;1;1;1
+07.21;Extraction de minerais d'uranium et de thorium;R;;6;6;6;6;6;1;1;1;1
+07.29;Extraction d'autres minerais de métaux non ferreux;R;;98;65;79;84;88;0,663265306;0,806122449;0,857142857;0,897959184
+08.11;Extraction de pierres ornementales et de construction, de calcaire industriel, de gypse, de craie et d'ardoise;R;;657;267;502;572;624;0,406392694;0,764079148;0,870624049;0,949771689
+08.12;Exploitation de gravières et sablières, extraction d'argiles et de kaolin;R;;1083;264;475;621;834;0,243767313;0,438596491;0,573407202;0,770083102
+08.91;Extraction des minéraux chimiques et d'engrais minéraux;R;;62;29;48;51;59;0,467741935;0,774193548;0,822580645;0,951612903
+08.92;Extraction de tourbe;R;;26;6;17;19;23;0,230769231;0,653846154;0,730769231;0,884615385
+08.93;Production de sel;R;;391;380;384;385;389;0,971867008;0,982097187;0,984654731;0,99488491
+08.99;Autres activités extractives n.c.a.;R;;63;34;43;51;55;0,53968254;0,682539683;0,80952381;0,873015873
+09.10;Activités de soutien à l'extraction d'hydrocarbures;R;;50;33;41;44;48;0,66;0,82;0,88;0,96
+09.90;Activités de soutien aux autres industries extractives;R;;12;9;10;10;11;0,75;0,833333333;0,833333333;0,916666667
+10.11;Transformation et conservation de la viande de boucherie;R;;1225;436;653;753;906;0,355918367;0,533061224;0,614693878;0,739591837
+10.12;Transformation et conservation de la viande de volaille;M;1 unique activité A : abattage de volailles;397;105;192;220;255;0,264483627;0,483627204;0,554156171;0,64231738
+10.13;Préparation de produits à base de viande;M;"Refus de la sous-traitance ; refus des produits surgelés";6360;2364;5006;5602;5985;0,3717;0,787;0,881;0,941
+10.20;Transformation et conservation de poisson, de crustacés et de mollusques;M;1 unique activité A : conserves de poissons;362;116;186;216;256;0,320441989;0,513812155;0,596685083;0,70718232
+10.31;Transformation et conservation de pommes de terre;R;Refus de la sous-traitance;328;248;310;315;318;0,756097561;0,945121951;0,960365854;0,969512195
+10.32;Préparation de jus de fruits et légumes;R;Refus de la sous-traitance;153;90;125;129;135;0,588235294;0,816993464;0,843137255;0,882352941
+10.39;Autre transformation et conservation de fruits et légumes;R;confitures, conserves de fruits… : A;764;376;529;575;632;0,492;0,692;0,753;0,827
+10.41;Fabrication d'huiles et graisses;R;Refus de la sous-traitance;233;118;192;206;212;0,506;0,824;0,884;0,909
+10.42;Fabrication de margarine et graisses comestibles similaires;R;Refus de la sous-traitance;4;0;0;0;0;0;0;0;0
+10.51;Exploitation de laiteries et fabrication de fromage;R;Refus de la sous-traitance;1031;279;582;671;768;0,271;0,5645;0,651;0,745
+10.52;Fabrication de glaces et sorbets;R;Refus de la sous-traitance;359;198;290;318;338;0,551532033;0,807799443;0,885793872;0,941504178
+10.61;Travail des grains;R;Refus de la sous-traitance;553;148;313;379;457;0,2676;0,566;0,685;0,826
+10.62;Fabrication de produits amylacés;R;Refus de la sous-traitance;11;5;6;6;6;0,454545455;0,545454545;0,545454545;0,545454545
+10.71;Fabrication de pain et de pâtisserie fraîche;R;Refus de la sous-traitance;40449;10587;31251;36948;39689;0,2617;0,7726;0,9134;0,9812
+10.72;Fabrication de biscuits, biscottes et pâtisseries de conservation;R;1 activité acceptée : pâtisseries, gâteaux;500;182;308;339;391;0,364;0,616;0,678;0,782
+10.73;Fabrication de pâtes alimentaires;R;Refus de la sous-traitance;243;110;193;210;226;0,452674897;0,794238683;0,864197531;0,930041152
+10.81;Fabrication de sucre;R;;36;16;17;17;20;0,444444444;0,472222222;0,472222222;0,555555556
+10.82;Fabrication de cacao, chocolat et de produits de confiserie;R;Refus de la sous-traitance;874;291;576;659;749;0,332951945;0,659038902;0,754004577;0,856979405
+10.83;Transformation du thé et du café;R;Refus de la sous-traitance;543;240;436;472;500;0,44198895;0,802946593;0,869244936;0,920810313
+10.84;Fabrication de condiments et assaisonnements;R;Refus de la sous-traitance;122;35;64;81;96;0,286885246;0,524590164;0,663934426;0,786885246
+10.85;Fabrication de plats préparés;R;Refus de la sous-traitance;846;449;632;667;709;0,530732861;0,747044917;0,788416076;0,838061466
+10.86;Fabrication d'aliments homogénéisés et diététiques;R;;149;41;71;82;107;0,275167785;0,476510067;0,55033557;0,718120805
+10.89;Fabrication d'autres produits alimentaires n.c.a.;R;;837;401;594;656;711;0,479091995;0,709677419;0,783751493;0,849462366
+10.91;Fabrication d'aliments pour animaux de ferme;R;;418;76;158;208;274;0,181818182;0,377990431;0,497607656;0,655502392
+10.92;Fabrication d'aliments pour animaux de compagnie;R;;54;9;23;25;29;0,166666667;0,425925926;0,462962963;0,537037037
+11.01;Production de boissons alcooliques distillées;R;;848;534;676;721;777;0,629716981;0,797169811;0,850235849;0,916273585
+11.02;Production de vin (de raisin);R;;1531;610;1108;1270;1390;0,3984;0,7237;0,829;0,908
+11.03;Fabrication de cidre et de vins de fruits;R;;148;106;133;139;142;0,716216216;0,898648649;0,939189189;0,959459459
+11.04;Production d'autres boissons fermentées non distillées;R;;33;23;29;29;30;0,696969697;0,878787879;0,878787879;0,909090909
+11.05;Fabrication de bière;R;;218;122;187;197;205;0,559633028;0,857798165;0,903669725;0,940366972
+11.06;Fabrication de malt;R;;8;1;2;2;3;0,125;0,25;0,25;0,375
+11.07;Industrie des eaux minérales et autres eaux embouteillées et des boissons rafraîchissantes;M;limonades, apéritifs sans alcools…;205;77;102;114;139;0,3756;0,4975;0,5535;0,678
+12.00;Fabrication de produits à base de tabac;R;;14;6;6;6;7;0,428571429;0,428571429;0,428571429;0,5
+13.10;Préparation de fibres textiles et filature;R;;271;80;137;166;206;0,295202952;0,505535055;0,612546125;0,760147601
+13.20;Tissage;R;;389;138;212;244;293;0,354755784;0,544987147;0,627249357;0,753213368
+13.30;Ennoblissement textile;R;;539;218;353;393;446;0,40445269;0,654916512;0,729128015;0,827458256
+13.91;Fabrication d'étoffes à mailles;R;;93;19;37;50;76;0,204301075;0,397849462;0,537634409;0,817204301
+13.92;Fabrication d'articles textiles, sauf habillement;M;Linge de lit, linge de table, linge de toilette…;1720;803;1265;1419;1580;0,466860465;0,735465116;0,825;0,918604651
+13.93;Fabrication de tapis et moquettes;R;;61;26;36;39;46;0,426229508;0,590163934;0,639344262;0,754098361
+13.94;Fabrication de ficelles, cordes et filets;R;;87;30;53;66;74;0,344827586;0,609195402;0,75862069;0,850574713
+13.95;Fabrication de non-tissés, sauf habillement;R;;34;7;8;13;14;0,205882353;0,235294118;0,382352941;0,411764706
+13.96;Fabrication d'autres textiles techniques et industriels;R;;153;16;28;41;49;0,104575163;0,183006536;0,267973856;0,320261438
+13.99;Fabrication d'autres textiles n.c.a.;M;COM 36;902;497;709;779;848;0,550997783;0,786031042;0,863636364;0,940133038
+14.11;Fabrication de vêtements en cuir;R;;161;90;130;138;154;0,559006211;0,807453416;0,857142857;0,956521739
+14.12;Fabrication de vêtements de travail;M;Refus de la sous-traitance;104;24;42;58;74;0,230769231;0,403846154;0,557692308;0,711538462
+14.13;Fabrication de vêtements de dessus;M;Refus de la sous-traitance;8797;6519;7890;8237;8519;0,741048085;0,896896669;0,936341935;0,968398318
+14.14;Fabrication de vêtements de dessous;M;Refus de la sous-traitance;241;91;127;146;160;0,377593361;0,526970954;0,605809129;0,663900415
+14.19;Fabrication d'autres vêtements et accessoires;M;Refus de la sous-traitance;1113;691;883;959;1027;0,620844564;0,793351303;0,86163522;0,922731357
+14.20;Fabrication d'articles en fourrure;R;;159;96;144;153;155;0,603773585;0,905660377;0,962264151;0,974842767
+14.31;Fabrication d'articles chaussants à mailles;M;Refus de la sous-traitance;36;7;11;14;20;0,194444444;0,305555556;0,388888889;0,555555556
+14.39;Fabrication d'autres articles à mailles;R;Refus de la sous-traitance;321;154;229;258;293;0,479750779;0,713395639;0,803738318;0,912772586
+15.11;"Apprêt et tannage des cuirs ; préparation et teinture des fourrures";R;;140;44;78;92;109;0,314285714;0,557142857;0,657142857;0,778571429
+15.12;Fabrication d'articles de voyage, de maroquinerie et de sellerie;M;Refus de la sous-traitance;1458;916;1213;1275;1342;0,628257888;0,831961591;0,874485597;0,920438957
+15.20;Fabrication de chaussures;M;Refus de la sous-traitance;407;169;257;282;322;0,415233415;0,631449631;0,692874693;0,791154791
+16.10;Sciage et rabotage du bois;R;;3272;1373;2373;2722;3061;0,419;0,725;0,832;0,9355
+16.21;Fabrication de placage et de panneaux de bois;R;;146;38;62;74;89;0,260273973;0,424657534;0,506849315;0,609589041
+16.22;Fabrication de parquets assemblés;R;;26;7;13;14;20;0,269230769;0,5;0,538461538;0,769230769
+16.23;Fabrication de charpentes et d'autres menuiseries;R;;2927;1387;2165;2423;2667;0,473864025;0,739665186;0,827810044;0,911171848
+16.24;Fabrication d'emballages en bois;R;;987;194;440;589;778;0,196555218;0,445795339;0,596757852;0,788247214
+16.29;"Fabrication d'objets divers en bois ; fabrication d'objets en liège, vannerie et sparterie";M;SI ARTISANALE;2171;1549;1948;2024;2104;0,713496085;0,897282358;0,932289268;0,969138646
+17.11;Fabrication de pâte à papier;R;;12;3;5;5;5;0,25;0,416666667;0,416666667;0,416666667
+17.12;Fabrication de papier et de carton;R;;169;41;62;74;92;0,24260355;0,366863905;0,437869822;0,544378698
+17.21;Fabrication de papier et carton ondulés et d'emballages en papier ou en carton;R;;675;117;230;293;400;0,1733;0,341;0,434;0,593
+17.22;Fabrication d'articles en papier à usage sanitaire ou domestique;R;;51;8;18;20;24;0,156862745;0,352941176;0,392156863;0,470588235
+17.23;Fabrication d'articles de papeterie;M;;180;59;99;108;127;0,327777778;0,55;0,6;0,705555556
+17.24;Fabrication de papiers peints;R;;14;5;8;9;11;0,357142857;0,571428571;0,642857143;0,785714286
+17.29;Fabrication d'autres articles en papier ou en carton;R;;414;94;182;230;305;0,22705314;0,439613527;0,555555556;0,736714976
+18.11;Imprimerie de journaux;R;;143;92;116;120;126;0,643356643;0,811188811;0,839160839;0,881118881
+18.12;Autre imprimerie (labeur);M;;6433;2219;4375;5079;5737;0,344940152;0,680087051;0,789522773;0,891807866
+18.13;Activités de pré-presse;M;;8799;6260;8149;8491;8681;0,711444482;0,926127969;0,964996022;0,986589385
+18.14;Reliure et activités connexes;R;;650;369;493;530;587;0,567692308;0,758461538;0,815384615;0,903076923
+18.20;Reproduction d'enregistrements;R;;459;356;432;441;448;0,775599129;0,941176471;0,960784314;0,976034858
+19.10;Cokéfaction;R;;2;1;1;1;1;0,5;0,5;0,5;0,5
+19.20;Raffinage du pétrole;R;;79;22;42;45;52;0,278481013;0,53164557;0,569620253;0,658227848
+20.11;Fabrication de gaz industriels;R;;41;24;25;26;29;0,585365854;0,609756098;0,634146341;0,707317073
+20.12;Fabrication de colorants et de pigments;R;;43;8;18;22;25;0,186046512;0,418604651;0,511627907;0,581395349
+20.13;Fabrication d'autres produits chimiques inorganiques de base;R;;117;26;48;56;67;0,222;0,4102;0,4786;0,5726
+20.14;Fabrication d'autres produits chimiques organiques de base;R;;359;167;236;257;281;0,465181058;0,657381616;0,715877437;0,782729805
+20.15;Fabrication de produits azotés et d'engrais;R;;152;58;91;107;123;0,381578947;0,598684211;0,703947368;0,809210526
+20.16;Fabrication de matières plastiques de base;R;;209;49;87;106;129;0,234449761;0,416267943;0,507177033;0,61722488
+20.17;Fabrication de caoutchouc synthétique;R;;17;3;6;8;9;0,176470588;0,352941176;0,470588235;0,529411765
+20.20;Fabrication de pesticides et d'autres produits agrochimiques;R;;108;33;65;71;82;0,305555556;0,601851852;0,657407407;0,759259259
+20.30;Fabrication de peintures, vernis, encres et mastics;R;;338;56;130;159;203;0,165680473;0,384615385;0,470414201;0,600591716
+20.41;Fabrication de savons, détergents et produits d'entretien;R;;373;145;237;271;309;0,388739946;0,63538874;0,726541555;0,828418231
+20.42;Fabrication de parfums et de produits pour la toilette;M;Refus de la sous-traitance;831;339;534;587;644;0,407942238;0,642599278;0,706377858;0,774969916
+20.51;Fabrication de produits explosifs;R;;32;7;12;17;20;0,21875;0,375;0,53125;0,625
+20.52;Fabrication de colles;R;;39;8;21;24;28;0,205128205;0,538461538;0,615384615;0,717948718
+20.53;Fabrication d'huiles essentielles;R;;215;97;151;163;176;0,451162791;0,702325581;0,758139535;0,818604651
+20.59;Fabrication d'autres produits chimiques n.c.a.;R;;307;77;133;164;202;0,250814332;0,433224756;0,534201954;0,657980456
+20.60;Fabrication de fibres artificielles ou synthétiques;R;;21;6;10;12;12;0,285714286;0,476190476;0,571428571;0,571428571
+21.10;Fabrication de produits pharmaceutiques de base;R;;77;29;42;48;55;0,376623377;0,545454545;0,623376623;0,714285714
+21.20;Fabrication de préparations pharmaceutiques;R;;406;92;162;183;212;0,226600985;0,399014778;0,450738916;0,522167488
+22.11;Fabrication et rechapage de pneumatiques;R;;93;43;65;70;76;0,462365591;0,698924731;0,752688172;0,817204301
+22.19;Fabrication d'autres articles en caoutchouc;R;;434;67;187;232;298;0,15437788;0,430875576;0,534562212;0,686635945
+22.21;Fabrication de plaques, feuilles, tubes et profilés en matières plastiques;R;;400;75;142;189;247;0,1875;0,355;0,4725;0,6175
+22.22;Fabrication d'emballages en matières plastiques;R;;665;93;197;254;356;0,139849624;0,296240602;0,381954887;0,535338346
+22.23;Fabrication d'éléments en matières plastiques pour la construction;R;;768;132;282;362;493;0,171875;0,3671875;0,471354167;0,641927083
+22.29;Fabrication d'autres articles en matières plastiques;R;;2479;585;1200;1500;1865;0,236;0,484;0,605;0,752
+23.11;Fabrication de verre plat;R;;22;8;12;13;13;0,363636364;0,545454545;0,590909091;0,590909091
+23.12;Façonnage et transformation du verre plat;R;;444;82;211;269;337;0,184684685;0,475225225;0,605855856;0,759009009
+23.13;Fabrication de verre creux;R;;365;216;286;292;307;0,591780822;0,783561644;0,8;0,84109589
+23.14;Fabrication de fibres de verre;R;;20;7;10;10;11;0,35;0,5;0,5;0,55
+23.19;Fabrication et façonnage d'autres articles en verre, y compris verre technique;R;;449;265;385;410;430;0,590200445;0,857461024;0,913140312;0,957683742
+23.20;Fabrication de produits réfractaires;R;;65;17;26;35;40;0,261538462;0,4;0,538461538;0,615384615
+23.31;Fabrication de carreaux en céramique;R;;74;33;49;56;62;0,445945946;0,662162162;0,756756757;0,837837838
+23.32;Fabrication de briques, tuiles et produits de construction, en terre cuite;R;;137;61;99;112;121;0,445255474;0,722627737;0,817518248;0,883211679
+23.41;Fabrication d'articles céramiques à usage domestique ou ornemental;M;Refus de la sous-traitance;1726;1390;1616;1657;1676;0,805330243;0,93626883;0,960023175;0,971031286
+23.42;Fabrication d'appareils sanitaires en céramique;R;;19;6;11;12;12;0,315789474;0,578947368;0,631578947;0,631578947
+23.43;Fabrication d'isolateurs et pièces isolantes en céramique;R;;6;0;0;1;1;0;0;0,166666667;0,166666667
+23.44;Fabrication d'autres produits céramiques à usage technique;R;;21;2;8;10;14;0,095238095;0,380952381;0,476190476;0,666666667
+23.49;Fabrication d'autres produits céramiques;R;;66;49;52;55;60;0,742424242;0,787878788;0,833333333;0,909090909
+23.51;Fabrication de ciment;R;;22;8;12;13;13;0,363636364;0,545454545;0,590909091;0,590909091
+23.52;Fabrication de chaux et plâtre;R;;41;11;21;24;29;0,268292683;0,512195122;0,585365854;0,707317073
+23.61;Fabrication d'éléments en béton pour la construction;R;;730;172;308;391;513;0,235616438;0,421917808;0,535616438;0,702739726
+23.62;Fabrication d'éléments en plâtre pour la construction;R;;29;8;14;17;20;0,275862069;0,482758621;0,586206897;0,689655172
+23.63;Fabrication de béton prêt à l'emploi;R;;445;106;202;266;340;0,238202247;0,453932584;0,597752809;0,764044944
+23.64;Fabrication de mortiers et bétons secs;R;;37;14;16;18;27;0,378378378;0,432432432;0,486486486;0,72972973
+23.65;Fabrication d'ouvrages en fibre-ciment;R;;22;11;13;16;19;0,5;0,590909091;0,727272727;0,863636364
+23.69;Fabrication d'autres ouvrages en béton, en ciment ou en plâtre;R;;283;149;237;256;265;0,526501767;0,83745583;0,90459364;0,93639576
+23.70;Taille, façonnage et finissage de pierres;R;;3123;1374;2549;2844;3034;0,439961575;0,81620237;0,910662824;0,971501761
+23.91;Fabrication de produits abrasifs;R;;36;4;15;21;25;0,111111111;0,416666667;0,583333333;0,694444444
+23.99;Fabrication d'autres produits minéraux non métalliques n.c.a.;R;;467;178;359;404;439;0,381156317;0,768736617;0,86509636;0,940042827
+24.10;Sidérurgie;R;;93;20;42;46;53;0,215053763;0,451612903;0,494623656;0,569892473
+24.20;Fabrication de tubes, tuyaux, profilés creux et accessoires correspondants en acier;R;;122;25;56;61;70;0,204918033;0,459016393;0,5;0,573770492
+24.31;Étirage à froid de barres;R;;15;2;4;4;6;0,133333333;0,266666667;0,266666667;0,4
+24.32;Laminage à froid de feuillards;R;;9;2;2;2;2;0,222222222;0,222222222;0,222222222;0,222222222
+24.33;Profilage à froid par formage ou pliage;R;;129;16;42;59;90;0,124031008;0,325581395;0,457364341;0,697674419
+24.34;Tréfilage à froid;R;;25;1;4;5;8;0,04;0,16;0,2;0,32
+24.41;Production de métaux précieux;R;;38;14;30;33;36;0,368421053;0,789473684;0,868421053;0,947368421
+24.42;Métallurgie de l'aluminium;R;;93;24;38;49;59;0,258064516;0,408602151;0,52688172;0,634408602
+24.43;Métallurgie du plomb, du zinc ou de l'étain;R;;21;6;9;10;10;0,285714286;0,428571429;0,476190476;0,476190476
+24.44;Métallurgie du cuivre;R;;31;4;9;10;12;0,129032258;0,290322581;0,322580645;0,387096774
+24.45;Métallurgie des autres métaux non ferreux;R;;74;33;49;58;64;0,445945946;0,662162162;0,783783784;0,864864865
+24.46;Élaboration et transformation de matières nucléaires;R;;8;4;5;5;5;0,5;0,625;0,625;0,625
+24.51;Fonderie de fonte;R;;97;20;26;30;40;0,206185567;0,268041237;0,309278351;0,412371134
+24.52;Fonderie d'acier;R;;39;6;8;9;10;0,153846154;0,205128205;0,230769231;0,256410256
+24.53;Fonderie de métaux légers;R;;136;9;21;33;59;0,066176471;0,154411765;0,242647059;0,433823529
+24.54;Fonderie d'autres métaux non ferreux;R;;194;42;100;125;159;0,216494845;0,515463918;0,644329897;0,819587629
+25.11;Fabrication de structures métalliques et de parties de structures;R;;2722;746;1365;1640;2019;0,274063189;0,501469508;0,602498163;0,741734019
+25.12;Fabrication de portes et fenêtres en métal;R;;1968;608;1200;1487;1758;0,308943089;0,609756098;0,755589431;0,893292683
+25.21;Fabrication de radiateurs et de chaudières pour le chauffage central;R;;50;2;13;22;27;0,04;0,26;0,44;0,54
+25.29;Fabrication d'autres réservoirs, citernes et conteneurs métalliques;R;;80;4;9;19;39;0,05;0,1125;0,2375;0,4875
+25.30;Fabrication de générateurs de vapeur, à l'exception des chaudières pour le chauffage central;R;;47;13;23;31;38;0,276595745;0,489361702;0,659574468;0,808510638
+25.40;Fabrication d'armes et de munitions;R;;168;105;144;147;154;0,625;0,857142857;0,875;0,916666667
+25.50;"Forge, emboutissage, estampage ; métallurgie des poudres";R;;1727;444;834;1007;1261;0,257;0,483;0,5831;0,7302
+25.61;Traitement et revêtement des métaux;R;;2039;491;1121;1390;1706;0,240804316;0,549779304;0,681706719;0,836684649
+25.62;Usinage;R;;6731;1054;2869;3308;5566;0,1565;0,426;0,4915;0,827
+25.71;Fabrication de coutellerie;R;;252;124;188;210;221;0,492063492;0,746031746;0,833333333;0,876984127
+25.72;Fabrication de serrures et de ferrures;R;;542;191;359;408;459;0,352398524;0,662361624;0,752767528;0,846863469
+25.73;Fabrication d'outillage;R;;1470;273;701;911;1173;0,186;0,477;0,62;0,798
+25.91;Fabrication de fûts et emballages métalliques similaires;R;;13;3;5;7;8;0,230769231;0,384615385;0,538461538;0,615384615
+25.92;Fabrication d'emballages métalliques légers;R;;71;11;17;23;29;0,154929577;0,23943662;0,323943662;0,408450704
+25.93;Fabrication d'articles en fils métalliques, de chaînes et de ressorts;R;;408;46;118;159;239;0,112745098;0,289215686;0,389705882;0,585784314
+25.94;Fabrication de vis et de boulons;R;;128;18;39;48;74;0,140625;0,3046875;0,375;0,578125
+25.99;Fabrication d'autres produits métalliques n.c.a.;R;;1498;590;990;1134;1277;0,394;0,661;0,757;0,8525
+26.11;Fabrication de composants électroniques;R;;380;129;210;247;298;0,339473684;0,552631579;0,65;0,784210526
+26.12;Fabrication de cartes électroniques assemblées;R;;578;151;264;312;376;0,261245675;0,456747405;0,539792388;0,650519031
+26.20;Fabrication d'ordinateurs et d'équipements périphériques;R;;393;164;284;317;353;0,417302799;0,72264631;0,806615776;0,89821883
+26.30;Fabrication d'équipements de communication;R;;744;234;468;572;656;0,314516129;0,629032258;0,768817204;0,88172043
+26.40;Fabrication de produits électroniques grand public;R;;228;130;190;197;211;0,570175439;0,833333333;0,864035088;0,925438596
+26.51;Fabrication d'instruments et d'appareils de mesure, d'essai et de navigation;R;;1062;285;612;729;859;0,268;0,576;0,686;0,809
+26.52;Horlogerie;R;;223;113;168;185;198;0,506726457;0,753363229;0,829596413;0,887892377
+26.60;Fabrication d'équipements d'irradiation médicale, d'équipements électromédicaux et électrothérapeutiques;R;;122;32;78;96;101;0,262295082;0,639344262;0,786885246;0,827868852
+26.70;Fabrication de matériels optique et photographique;R;;202;71;154;168;180;0,351485149;0,762376238;0,831683168;0,891089109
+26.80;Fabrication de supports magnétiques et optiques;R;;23;17;20;20;21;0,739130435;0,869565217;0,869565217;0,913043478
+27.11;Fabrication de moteurs, génératrices et transformateurs électriques;R;;236;44;91;113;140;0,186440678;0,38559322;0,478813559;0,593220339
+27.12;Fabrication de matériel de distribution et de commande électrique;R;;568;134;273;351;439;0,235915493;0,480633803;0,617957746;0,772887324
+27.20;Fabrication de piles et d'accumulateurs électriques;R;;29;6;15;16;17;0,206896552;0,517241379;0,551724138;0,586206897
+27.31;Fabrication de câbles de fibres optiques;R;;17;3;10;13;15;0,176470588;0,588235294;0,764705882;0,882352941
+27.32;Fabrication d'autres fils et câbles électroniques ou électriques;R;;134;28;65;77;95;0,208955224;0,485074627;0,574626866;0,708955224
+27.33;Fabrication de matériel d'installation électrique;R;;145;19;50;67;82;0,131034483;0,344827586;0,462068966;0,565517241
+27.40;Fabrication d'appareils d'éclairage électrique;R;;862;367;610;679;753;0,42575406;0,707656613;0,787703016;0,873549884
+27.51;Fabrication d'appareils électroménagers;R;;102;35;49;54;58;0,343137255;0,480392157;0,529411765;0,568627451
+27.52;Fabrication d'appareils ménagers non électriques;R;;66;20;38;41;46;0,303030303;0,575757576;0,621212121;0,696969697
+27.90;Fabrication d'autres matériels électriques;R;;584;173;350;411;476;0,296232877;0,599315068;0,703767123;0,815068493
+28.11;Fabrication de moteurs et turbines, à l'exception des moteurs d'avions et de véhicules;R;;192;78;133;154;165;0,40625;0,692708333;0,802083333;0,859375
+28.12;Fabrication d'équipements hydrauliques et pneumatiques;R;;408;103;254;302;347;0,25245098;0,62254902;0,740196078;0,850490196
+28.13;Fabrication d'autres pompes et compresseurs;R;;183;36;76;95;115;0,196721311;0,415300546;0,519125683;0,628415301
+28.14;Fabrication d'autres articles de robinetterie;R;;206;35;65;84;106;0,169902913;0,315533981;0,40776699;0,514563107
+28.15;Fabrication d'engrenages et d'organes mécaniques de transmission;R;;122;10;19;28;50;0,081967213;0,155737705;0,229508197;0,409836066
+28.21;Fabrication de fours et brûleurs;R;;120;38;63;73;96;0,316666667;0,525;0,608333333;0,8
+28.22;Fabrication de matériel de levage et de manutention;R;;944;252;502;612;732;0,266949153;0,531779661;0,648305085;0,775423729
+28.23;Fabrication de machines et d'équipements de bureau (à l'exception des ordinateurs et équipements périphériques);R;;25;9;16;18;20;0,36;0,64;0,72;0,8
+28.24;Fabrication d'outillage portatif à moteur incorporé;R;;10;1;2;4;4;0,1;0,2;0,4;0,4
+28.25;Fabrication d'équipements aérauliques et frigorifiques industriels;R;;1515;434;981;1151;1332;0,286468647;0,647524752;0,759735974;0,879207921
+28.29;Fabrication de machines diverses d'usage général;R;;922;288;554;648;766;0,312;0,601;0,703;0,831
+28.30;Fabrication de machines agricoles et forestières;R;;788;221;430;514;605;0,280456853;0,545685279;0,652284264;0,767766497
+28.41;Fabrication de machines de formage des métaux;R;;374;124;231;267;316;0,331550802;0,617647059;0,713903743;0,844919786
+28.49;Fabrication d'autres machines-outils;R;;164;60;115;124;141;0,365853659;0,701219512;0,756097561;0,859756098
+28.91;Fabrication de machines pour la métallurgie;R;;67;15;43;50;56;0,223880597;0,641791045;0,746268657;0,835820896
+28.92;Fabrication de machines pour l'extraction ou la construction;R;;117;15;31;42;55;0,128205128;0,264957265;0,358974359;0,47008547
+28.93;Fabrication de machines pour l'industrie agro-alimentaire;R;;705;205;423;490;575;0,290780142;0,6;0,695035461;0,815602837
+28.94;Fabrication de machines pour les industries textiles;R;;180;80;139;155;161;0,444444444;0,772222222;0,861111111;0,894444444
+28.95;Fabrication de machines pour les industries du papier et du carton;R;;62;11;23;29;41;0,177419355;0,370967742;0,467741935;0,661290323
+28.96;Fabrication de machines pour le travail du caoutchouc ou des plastiques;R;;69;16;33;42;52;0,231884058;0,47826087;0,608695652;0,753623188
+28.99;Fabrication d'autres machines d'usage spécifique n.c.a.;R;;576;172;331;379;451;0,299;0,575;0,658;0,783
+29.10;Construction de véhicules automobiles;R;;213;83;123;141;156;0,389671362;0,577464789;0,661971831;0,732394366
+29.20;Fabrication de carrosseries et remorques;R;;1262;261;601;778;986;0,20681458;0,476228209;0,616481775;0,781299525
+29.31;Fabrication d'équipements électriques et électroniques automobiles;R;;80;28;36;39;45;0,35;0,45;0,4875;0,5625
+29.32;Fabrication d'autres équipements automobiles;R;;612;193;348;387;431;0,315359477;0,568627451;0,632352941;0,704248366
+30.11;Construction de navires et de structures flottantes;R;;194;90;142;149;163;0,463917526;0,731958763;0,768041237;0,840206186
+30.12;Construction de bateaux de plaisance;R;;398;182;285;318;342;0,457286432;0,716080402;0,798994975;0,859296482
+30.20;Construction de locomotives et d'autre matériel ferroviaire roulant;R;;58;6;16;18;23;0,103448276;0,275862069;0,310344828;0,396551724
+30.30;Construction aéronautique et spatiale;R;;164;36;46;59;68;0,219512195;0,280487805;0,359756098;0,414634146
+30.40;Construction de véhicules militaires de combat;R;;3;1;1;1;1;0,333333333;0,333333333;0,333333333;0,333333333
+30.91;Fabrication de motocycles;R;;76;38;59;66;69;0,5;0,776315789;0,868421053;0,907894737
+30.92;Fabrication de bicyclettes et de véhicules pour invalides;R;;115;46;79;84;95;0,4;0,686956522;0,730434783;0,826086957
+30.99;Fabrication d'autres équipements de transport n.c.a.;R;;32;11;18;22;23;0,34375;0,5625;0,6875;0,71875
+31.01;Fabrication de meubles de bureau et de magasin;R;;806;118;329;470;614;0,146401985;0,408188586;0,583126551;0,7617866
+31.02;Fabrication de meubles de cuisine;R;;986;423;753;837;909;0,429006085;0,763691684;0,848884381;0,921906694
+31.03;Fabrication de matelas;R;;281;156;202;220;247;0,555160142;0,71886121;0,782918149;0,879003559
+31.09;Fabrication d'autres meubles;M;Refus de la sous-traitance + des meubles métalliques ;12463;8945;11690;11990;12210;0,718;0,938;0,962;0,979
+32.11;Frappe de monnaie;R;;19;7;15;16;19;0,368421053;0,789473684;0,842105263;1
+32.12;Fabrication d'articles de joaillerie et bijouterie;R;;2845;1808;2610;2706;2783;0,635500879;0,917398946;0,951142355;0,978207381
+32.13;Fabrication d'articles de bijouterie fantaisie et articles similaires;M;refus de la sous-traitance ;1505;1265;1449;1470;1491;0,840531561;0,962790698;0,976744186;0,990697674
+32.20;Fabrication d'instruments de musique;M;refus de la sous-traitance ;783;599;739;756;766;0,765006386;0,943805875;0,965517241;0,978288633
+32.30;Fabrication d'articles de sport;R;Compte tenu de la diversité des activités, accord au préalable de l'UGP Cie;476;249;371;406;430;0,523109244;0,779411765;0,852941176;0,903361345
+32.40;Fabrication de jeux et jouets;M;SI ARTISANALE;551;390;476;504;525;0,707803993;0,863883848;0,914700544;0,952813067
+32.50;Fabrication d'instruments et de fournitures à usage médical et dentaire;M;acceptation uniquement des prothèses dentaires;7769;3364;6529;7109;7473;0,433;0,8403;0,915;0,962
+32.91;Fabrication d'articles de brosserie;R;;74;12;29;40;55;0,162162162;0,391891892;0,540540541;0,743243243
+32.99;Autres activités manufacturières n.c.a.;R;;2209;1676;2011;2087;2141;0,75871435;0,910366682;0,94477139;0,96921684
+33.11;Réparation d'ouvrages en métaux;R;;723;284;475;530;584;0,392807746;0,656984786;0,733056708;0,807745505
+33.12;Réparation de machines et équipements mécaniques;R;;7674;3928;6828;7233;7441;0,511858223;0,889757623;0,942533229;0,969637738
+33.13;Réparation de matériels électroniques et optiques;R;;278;93;179;207;234;0,334532374;0,643884892;0,744604317;0,841726619
+33.14;Réparation d'équipements électriques;R;;1018;357;717;850;942;0,350687623;0,7043222;0,83497053;0,925343811
+33.15;Réparation et maintenance navale;M;1 Activité acceptée : réparation de voiles de bateaux (cf Manuel Produits ASS COM 91);2000;1215;1809;1911;1968;0,6075;0,9045;0,9555;0,984
+33.16;Réparation et maintenance d'aéronefs et d'engins spatiaux;R;;279;135;206;221;238;0,483870968;0,738351254;0,792114695;0,853046595
+33.17;Réparation et maintenance d'autres équipements de transport;R;;39;11;15;18;21;0,282051282;0,384615385;0,461538462;0,538461538
+33.19;Réparation d'autres équipements;M;1 Activité acceptée : 33.19.10 Réparation ou reconditionnement de palettes en bois;189;91;141;152;166;0,481481481;0,746031746;0,804232804;0,878306878
+33.20;Installation de machines et d'équipements industriels;R;;8847;2784;5447;6636;7853;0,315;0,616;0,75;0,8876
+35.11;Production d'électricité;R;;3645;3196;3598;3619;3629;0,876817558;0,987105624;0,992866941;0,995610425
+35.12;Transport d'électricité;R;;36;8;33;33;33;0,222222222;0,916666667;0,916666667;0,916666667
+35.13;Distribution d'électricité;R;;191;87;130;145;171;0,455497382;0,680628272;0,759162304;0,895287958
+35.14;Commerce d'électricité;R;;121;85;99;105;108;0,702479339;0,818181818;0,867768595;0,892561983
+35.21;Production de combustibles gazeux;R;;30;26;27;29;30;0,866666667;0,9;0,966666667;1
+35.22;Distribution de combustibles gazeux par conduites;R;;31;13;19;20;24;0,419354839;0,612903226;0,64516129;0,774193548
+35.23;Commerce de combustibles gazeux par conduites;R;;22;9;10;10;13;0,409090909;0,454545455;0,454545455;0,590909091
+35.30;Production et distribution de vapeur et d'air conditionné;R;;317;208;250;262;282;0,65615142;0,788643533;0,826498423;0,889589905
+36.00;Captage, traitement et distribution d'eau;R;;2043;148;1671;1843;1928;0,072442487;0,817914831;0,902104748;0,94371023
+37.00;Collecte et traitement des eaux usées;R;;1269;308;947;1071;1162;0,242710796;0,746256895;0,843971631;0,915681639
+38.11;Collecte des déchets non dangereux;R;;980;235;500;612;741;0,239795918;0,510204082;0,624489796;0,756122449
+38.12;Collecte des déchets dangereux;R;;221;101;154;173;191;0,457013575;0,696832579;0,78280543;0,864253394
+38.21;Traitement et élimination des déchets non dangereux;R;;478;154;248;280;328;0,322175732;0,518828452;0,585774059;0,686192469
+38.22;Traitement et élimination des déchets dangereux;R;;168;58;93;110;125;0,345238095;0,553571429;0,654761905;0,744047619
+38.31;Démantèlement d'épaves;R;;725;378;559;622;675;0,52137931;0,771034483;0,857931034;0,931034483
+38.32;Récupération de déchets triés;R;;3958;2281;3120;3395;3661;0,576301162;0,788276908;0,857756443;0,924962102
+39.00;Dépollution et autres services de gestion des déchets;R;;134;45;71;83;104;0,335820896;0,529850746;0,619402985;0,776119403
+41.10;Promotion immobilière;R;;13583;10687;12906;13202;13401;0,787;0,9501;0,972;0,987
+41.20;Construction de bâtiments résidentiels et non résidentiels;R;;27718;13877;23054;25145;26563;0,5006;0,832;0,907;0,958
+42.11;Construction de routes et autoroutes;R;;1255;401;607;702;823;0,319521912;0,483665339;0,55936255;0,655776892
+42.12;Construction de voies ferrées de surface et souterraines;R;;75;27;32;36;46;0,36;0,426666667;0,48;0,613333333
+42.13;Construction de ponts et tunnels;R;;170;58;77;89;110;0,341;0,453;0,5235;0,647
+42.21;Construction de réseaux pour fluides;R;;869;158;298;356;448;0,181818182;0,3429229;0,409666283;0,515535098
+42.22;Construction de réseaux électriques et de télécommunications;R;;578;102;181;222;293;0,176470588;0,313148789;0,384083045;0,506920415
+42.91;Construction d'ouvrages maritimes et fluviaux;R;;265;111;205;226;243;0,418867925;0,773584906;0,852830189;0,916981132
+42.99;Construction d'autres ouvrages de génie civil n.c.a.;R;;4209;1921;3839;3969;4076;0,456402946;0,912093134;0,94297933;0,968401045
+43.11;Travaux de démolition;R;;464;201;318;355;391;0,433189655;0,685344828;0,765086207;0,842672414
+43.12;Travaux de préparation des sites;R;;18005;9207;14770;16042;17204;0,5113;0,8203;0,8909;0,9555
+43.13;Forages et sondages;R;;469;169;360;409;443;0,360341151;0,767590618;0,87206823;0,9445629
+43.21;Installation électrique;A;"Activités acceptées en MP Locaux des artisans du bâtiment ; pour le RC Pro, la RC Décennale et la PJ : voir PPAB";49666;28710;43928;46556;48452;0,578;0,8844;0,937;0,9755
+43.22;Travaux de plomberie et installation de chauffage et de conditionnement d'air;M;;50744;27030;44160;47339;49557;0,5327;0,8702;0,933;0,977
+43.29;Autres travaux d'installation;M;;5140;2239;4143;4571;4916;0,436;0,806;0,889;0,9565
+43.31;Travaux de plâtrerie;A;;17842;9430;15980;16912;17534;0,528528192;0,895639502;0,947875799;0,982737361
+43.32;Travaux de menuiserie;A;;54422;27723;46381;50355;53102;0,509;0,8522;0,9253;0,976
+43.33;Travaux de revêtement des sols et des murs;M;;18379;10279;16578;17497;18099;0,559279613;0,902007726;0,952010447;0,984765221
+43.34;Travaux de peinture et vitrerie;M;;50259;29258;45272;47726;49352;0,582144492;0,900773991;0,949601066;0,981953481
+43.39;Autres travaux de finition;M;;10010;6025;9222;9670;9923;0,601898102;0,921278721;0,966033966;0,991308691
+43.91;Travaux de couverture;A;;21719;8203;17871;19858;21122;0,378;0,823;0,915;0,9725
+43.99;Autres travaux de construction spécialisés n.c.a.;M;;86589;38599;73318;80090;84253;0,446;0,847;0,925;0,973
+45.11;Commerce de voitures et de véhicules automobiles légers;R;;25911;11022;20000;22400;23932;0,425379183;0,77187295;0,864497704;0,923623172
+45.19;Commerce d'autres véhicules automobiles;R;;916;291;510;576;657;0,31768559;0,556768559;0,628820961;0,717248908
+45.20;Entretien et réparation de véhicules automobiles;R;;37646;14859;32075;35675;37249;0,395;0,852;0,948;0,989
+45.31;Commerce de gros d'équipements automobiles;R;;2457;828;1535;1806;2112;0,336996337;0,624745625;0,735042735;0,85958486
+45.32;Commerce de détail d'équipements automobiles;R;;4573;1810;3566;4065;4417;0,395801443;0,779794446;0,888913186;0,965886726
+45.40;Commerce et réparation de motocycles;R;;5528;2373;4798;5236;5484;0,429269175;0,867945007;0,947178003;0,992040521
+46.11;Intermédiaires du commerce en matières premières agricoles, animaux vivants, matières premières textiles et produits semi-finis;M;;802;570;759;784;797;0,710723192;0,94638404;0,97755611;0,993765586
+46.12;Intermédiaires du commerce en combustibles, métaux, minéraux et produits chimiques;R;;443;268;376;390;410;0,605;0,849;0,88;0,9255
+46.13;Intermédiaires du commerce en bois et matériaux de construction;R;;1144;777;1054;1101;1113;0,679195804;0,921328671;0,962412587;0,972902098
+46.14;Intermédiaires du commerce en machines, équipements industriels, navires et avions;M;;1268;814;1133;1180;1229;0,641955836;0,893533123;0,930599369;0,969242902
+46.15;Intermédiaires du commerce en meubles, articles de ménage et quincaillerie;A;;840;601;791;815;831;0,71547619;0,941666667;0,970238095;0,989285714
+46.16;Intermédiaires du commerce en textiles, habillement, fourrures, chaussures et articles en cuir;M;;1563;1084;1496;1525;1550;0,693538068;0,957133717;0,97568778;0,991682662
+46.17;Intermédiaires du commerce en denrées, boissons et tabac;M;;2639;1756;2383;2471;2536;0,6654;0,903;0,9363;0,961
+46.18;Intermédiaires spécialisés dans le commerce d'autres produits spécifiques;M;;15645;13074;15041;15291;15494;0,835666347;0,961393416;0,977372963;0,990348354
+46.19;Intermédiaires du commerce en produits divers;R;;24775;22393;24288;24516;24622;0,904;0,9803;0,989;0,994
+46.21;Commerce de gros de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail;R;;2683;1190;1972;2173;2399;0,443533358;0,734998136;0,809914275;0,894148341
+46.22;Commerce de gros de fleurs et plantes;A;;975;395;791;880;932;0,405128205;0,811282051;0,902564103;0,955897436
+46.23;Commerce de gros d'animaux vivants;R;;2558;1397;2321;2428;2492;0,546129789;0,907349492;0,949179046;0,974198593
+46.24;Commerce de gros de cuirs et peaux;R;;172;62;138;157;165;0,360465116;0,802325581;0,912790698;0,959302326
+46.31;Commerce de gros de fruits et légumes;A;;3603;1265;2399;2847;3250;0,351096309;0,665834027;0,790174854;0,902026089
+46.32;Commerce de gros de viandes et de produits à base de viande;A;;1473;511;943;1120;1305;0,347;0,6402;0,7603;0,886
+46.33;Commerce de gros de produits laitiers, œufs, huiles et matières grasses comestibles;A;;936;376;568;651;755;0,401709402;0,606837607;0,695512821;0,806623932
+46.34;Commerce de gros de boissons;A;Pour le commerce de gros, l'acceptation est soumise au respect des conditions de souscriptions décrites dans le manuel produit MP;6546;3563;5474;5859;6190;0,544301864;0,836235869;0,895050412;0,945615643
+46.35;Commerce de gros de produits à base de tabac;A;;35;9;18;20;26;0,257142857;0,514285714;0,571428571;0,742857143
+46.36;Commerce de gros de sucre, chocolat et confiserie;A;;339;146;248;280;308;0,430678466;0,731563422;0,825958702;0,908554572
+46.37;Commerce de gros de café, thé, cacao et épices;A;;274;139;221;241;258;0,50729927;0,806569343;0,879562044;0,941605839
+46.38;Commerce de gros d'autres produits alimentaires, y compris poissons, crustacés et mollusques;M;;4355;2226;3419;3762;4080;0,511;0,785;0,864;0,937
+46.39;Commerce de gros non spécialisé de denrées, boissons et tabac;R;;2524;1333;1975;2148;2310;0,528;0,7824;0,851;0,915
+46.41;Commerce de gros de textiles;A;;2510;1477;2168;2321;2420;0,588446215;0,86374502;0,924701195;0,964143426
+46.42;Commerce de gros d'habillement et de chaussures;M;;8330;4504;7279;7759;8046;0,540696279;0,873829532;0,931452581;0,965906363
+46.43;Commerce de gros d'appareils électroménagers;A;;1593;780;1185;1286;1396;0,489642185;0,743879473;0,807281858;0,876333961
+46.44;Commerce de gros de vaisselle, verrerie et produits d'entretien;M;;1197;542;885;995;1070;0,452798663;0,739348371;0,831244779;0,89390142
+46.45;Commerce de gros de parfumerie et de produits de beauté;A;;2145;1166;1768;1893;2004;0,543589744;0,824242424;0,882517483;0,934265734
+46.46;Commerce de gros de produits pharmaceutiques;M;;2978;1211;2146;2376;2589;0,406648758;0,720617864;0,797850907;0,86937542
+46.47;Commerce de gros de meubles, de tapis et d'appareils d'éclairage;A;;561;295;451;487;521;0,525846702;0,803921569;0,868092692;0,928698752
+46.48;Commerce de gros d'articles d'horlogerie et de bijouterie;R;;291;118;200;221;247;0,405498282;0,687285223;0,759450172;0,848797251
+46.49;Commerce de gros d'autres biens domestiques;R;;17294;10142;15096;16055;16751;0,586446166;0,872903897;0,928356655;0,968601827
+46.51;Commerce de gros d'ordinateurs, d'équipements informatiques périphériques et de logiciels;A;;5922;3214;4923;5305;5657;0,542722053;0,831306991;0,895812226;0,955251604
+46.52;Commerce de gros de composants et d'équipements électroniques et de télécommunication;R;;3408;1471;2567;2866;3145;0,431631455;0,7532277;0,840962441;0,922828638
+46.61;Commerce de gros de matériel agricole;R;;3475;781;1848;2417;2961;0,224748201;0,531798561;0,695539568;0,852086331
+46.62;Commerce de gros de machines-outils;R;;926;313;676;768;857;0,338012959;0,730021598;0,82937365;0,925485961
+46.63;Commerce de gros de machines pour l'extraction, la construction et le génie civil;R;;1444;563;1019;1142;1285;0,389889197;0,70567867;0,790858726;0,889889197
+46.64;Commerce de gros de machines pour l'industrie textile et l'habillement;R;;115;34;89;102;112;0,295652174;0,773913043;0,886956522;0,973913043
+46.65;Commerce de gros de mobilier de bureau;A;;463;115;306;382;427;0,24838013;0,660907127;0,825053996;0,92224622
+46.66;Commerce de gros d'autres machines et équipements de bureau;R;;1325;372;851;1024;1173;0,280754717;0,642264151;0,772830189;0,885283019
+46.69;Commerce de gros d'autres machines et équipements;R;;16245;6003;11633;13335;14818;0,37;0,716;0,821;0,912
+46.71;Commerce de gros de combustibles et de produits annexes;R;;821;334;576;644;714;0,40682095;0,701583435;0,784409257;0,869671133
+46.72;Commerce de gros de minerais et métaux;R;;1157;438;751;870;975;0,378565255;0,649092481;0,751944685;0,842696629
+46.73;Commerce de gros de bois, de matériaux de construction et d'appareils sanitaires;M;1 activité acceptée : vente et réparation de produits d'emballages (palettes, caisses en bois);10002;3847;7077;8208;9130;0,385;0,708;0,8206;0,913
+46.74;Commerce de gros de quincaillerie et fournitures pour plomberie et chauffage;A;;2698;886;1719;2011;2301;0,328;0,637;0,745;0,853
+46.75;Commerce de gros de produits chimiques;R;;2121;767;1447;1698;1900;0,361621876;0,682225365;0,800565771;0,895803866
+46.76;Commerce de gros d'autres produits intermédiaires;R;;1624;663;1220;1378;1501;0,408251232;0,751231527;0,848522167;0,924261084
+46.77;Commerce de gros de déchets et débris;R;;491;200;357;406;466;0,407331976;0,727087576;0,82688391;0,949083503
+46.90;Commerce de gros non spécialisé;R;;13863;9866;13055;13475;13744;0,711678569;0,941715357;0,97201183;0,991415999
+47.11;Commerce de détail en magasin non spécialisé à prédominance alimentaire;A;;29681;14827;22717;24359;25960;0,5;0,7653;0,8206;0,875
+47.19;Autre commerce de détail en magasin non spécialisé;A;;3310;1994;2897;3105;3225;0,6025;0,875;0,938;0,974
+47.21;Commerce de détail de fruits et légumes en magasin spécialisé;A;;5343;3053;4892;5175;5300;0,571401834;0,915590492;0,96855699;0,991952087
+47.22;Commerce de détail de viandes et de produits à base de viande en magasin spécialisé;A;;15425;6167;14001;14892;15290;0,399805511;0,907682334;0,965445705;0,991247974
+47.23;Commerce de détail de poissons, crustacés et mollusques en magasin spécialisé;A;;2328;1130;2128;2248;2316;0,485395189;0,914089347;0,965635739;0,994845361
+47.24;Commerce de détail de pain, pâtisserie et confiserie en magasin spécialisé;A;;3662;2019;3421;3556;3628;0,551338067;0,934188968;0,971054069;0,990715456
+47.25;Commerce de détail de boissons en magasin spécialisé;A;;5229;3562;5071;5175;5214;0,681200994;0,969783897;0,989672978;0,997131383
+47.26;Commerce de détail de produits à base de tabac en magasin spécialisé;A;;5242;2846;5197;5237;5240;0,542922549;0,99141549;0,999046166;0,999618466
+47.29;Autres commerces de détail alimentaires en magasin spécialisé;A;;8541;5233;7990;8294;8453;0,612691722;0,935487648;0,97108067;0,989696757
+47.30;Commerce de détail de carburants en magasin spécialisé;R;;4347;1277;3570;4013;4260;0,293765816;0,821256039;0,923165401;0,979986197
+47.41;Commerce de détail d'ordinateurs, d'unités périphériques et de logiciels en magasin spécialisé;A;;3820;2201;3555;3718;3797;0,57617801;0,930628272;0,973298429;0,993979058
+47.42;Commerce de détail de matériels de télécommunication en magasin spécialisé;A;;1698;808;1511;1594;1650;0,475853946;0,889870436;0,938751472;0,971731449
+47.43;Commerce de détail de matériels audio/vidéo en magasin spécialisé;A;;1582;629;1371;1485;1550;0,397597977;0,866624526;0,938685209;0,97977244
+47.51;Commerce de détail de textiles en magasin spécialisé;A;;4717;2992;4468;4605;4667;0,634301463;0,947212211;0,976256095;0,989400042
+47.52;Commerce de détail de quincaillerie, peintures et verres en magasin spécialisé;A;;9760;3948;7617;8429;9230;0,4045;0,7804;0,864;0,946
+47.53;Commerce de détail de tapis, moquettes et revêtements de murs et de sols en magasin spécialisé;A;;859;347;719;789;833;0,403958091;0,83701979;0,918509895;0,969732247
+47.54;Commerce de détail d'appareils électroménagers en magasin spécialisé;A;;5442;2545;4749;5136;5349;0,467658949;0,872657111;0,943770673;0,982910695
+47.59;Commerce de détail de meubles, appareils d'éclairage et autres articles de ménage en magasin spécialisé;A;;19232;9020;16494;18053;18846;0,469;0,858;0,939;0,98
+47.61;Commerce de détail de livres en magasin spécialisé;A;;3345;1666;2981;3139;3250;0,498056801;0,891180867;0,938415546;0,971599402
+47.62;Commerce de détail de journaux et papeterie en magasin spécialisé;M;"Car rajout de l'activité ""livraison de journaux"" qui n'apparaissait pas en tant que tel dans le fichier mais qui est clairement identifiée comme étant refusée dans l'UGP en UEA";12336;7141;11894;12175;12292;0,578874838;0,964169909;0,986948768;0,996433204
+47.63;Commerce de détail d'enregistrements musicaux et vidéo en magasin spécialisé;A;;553;347;514;528;545;0,627486438;0,929475588;0,954792043;0,985533454
+47.64;Commerce de détail d'articles de sport en magasin spécialisé;M;1 activité refusée : vente de bateaux;9795;4708;8432;9098;9595;0,480653395;0,860847371;0,928841246;0,979581419
+47.65;Commerce de détail de jeux et jouets en magasin spécialisé;A;;1761;949;1565;1687;1736;0,538898353;0,888699602;0,957978421;0,985803521
+47.71;Commerce de détail d'habillement en magasin spécialisé;A;;39953;21329;36606;38544;39421;0,533852276;0,916226566;0,964733562;0,986684354
+47.72;Commerce de détail de chaussures et d'articles en cuir en magasin spécialisé;A;;7575;3442;6809;7208;7417;0,454;0,899;0,9515;0,979
+47.73;Commerce de détail de produits pharmaceutiques en magasin spécialisé;A;;23760;1288;15354;21754;23574;0,054208754;0,646212121;0,915572391;0,992171717
+47.74;Commerce de détail d'articles médicaux et orthopédiques en magasin spécialisé;A;;2406;858;2006;2209;2344;0,356608479;0,833748961;0,918121363;0,974231089
+47.75;Commerce de détail de parfumerie et de produits de beauté en magasin spécialisé;A;;4490;2278;3846;4201;4409;0,507349666;0,856570156;0,935634744;0,981959911
+47.76;Commerce de détail de fleurs, plantes, graines, engrais, animaux de compagnie et aliments pour ces animaux en magasin spécialisé;M;Car commerce de détail à destination des particuliers;15633;7804;14208;14907;15300;0,499200409;0,908846671;0,953559777;0,978698906
+47.77;Commerce de détail d'articles d'horlogerie et de bijouterie en magasin spécialisé;R;;5418;2363;4812;5148;5338;0,436138797;0,888150609;0,950166113;0,985234404
+47.78;Autre commerce de détail de biens neufs en magasin spécialisé;M;;37910;21461;35092;36790;37590;0,566;0,926;0,9705;0,9915
+47.79;Commerce de détail de biens d'occasion en magasin;M;;14531;11959;14256;14424;14505;0,822999105;0,981074943;0,992636432;0,998210722
+47.81;Commerce de détail alimentaire sur éventaires et marchés;A;;24780;20099;24481;24693;24764;0,811097659;0,987933818;0,996489104;0,999354318
+47.82;Commerce de détail de textiles, d'habillement et de chaussures sur éventaires et marchés;A;;7295;7040;7281;7288;7292;0,965044551;0,998080877;0,999040439;0,999588759
+47.89;Autres commerces de détail sur éventaires et marchés;A;;54136;52397;54068;54118;54132;0,967877198;0,998743904;0,999667504;0,999926112
+47.91;Vente à distance;M;même système que pour la vente sur internet;9517;8129;9164;9295;9383;0,8538;0,963;0,977;0,986
+47.99;Autres commerces de détail hors magasin, éventaires ou marchés;M;automates = exclus;5783;4277;5244;5406;5568;0,7395;0,906;0,9348;0,963
+49.10;Transport ferroviaire interurbain de voyageurs;R;;7;1;1;1;3;0,142857143;0,142857143;0,142857143;0,428571429
+49.20;Transports ferroviaires de fret;R;;24;16;19;19;20;0,666666667;0,791666667;0,791666667;0,833333333
+49.31;Transports urbains et suburbains de voyageurs;R;;592;221;365;396;426;0,373310811;0,616554054;0,668918919;0,719594595
+49.32;Transports de voyageurs par taxis;M;"refus de l'activité ""navette régulière aéroport/gare"" (UGP en UEA : cette activité est refusée dès lors qu'il s'agit de l'activité principale)";30892;26445;30133;30555;30791;0,856046873;0,975430532;0,989091027;0,996730545
+49.39;Autres transports terrestres de voyageurs n.c.a.;R;;5362;2256;3495;3921;4438;0,4207;0,6518;0,7312;0,828
+49.41;Transports routiers de fret;R;;38388;16935;28345;31722;34798;0,441;0,738;0,826;0,906
+49.42;Services de déménagement;R;;1655;463;970;1206;1482;0,279758308;0,586102719;0,728700906;0,895468278
+49.50;Transports par conduites;R;;29;21;24;26;26;0,724137931;0,827586207;0,896551724;0,896551724
+50.10;Transports maritimes et côtiers de passagers;R;;634;485;581;595;610;0,764984227;0,916403785;0,938485804;0,96214511
+50.20;Transports maritimes et côtiers de fret;R;;110;47;66;71;81;0,427272727;0,6;0,645454545;0,736363636
+50.30;Transports fluviaux de passagers;R;;161;64;125;139;144;0,397515528;0,776397516;0,863354037;0,894409938
+50.40;Transports fluviaux de fret;R;;976;734;941;950;968;0,75204918;0,964139344;0,973360656;0,991803279
+51.10;Transports aériens de passagers;R;;539;275;382;423;457;0,510204082;0,708719852;0,784786642;0,847866419
+51.21;Transports aériens de fret;R;;29;13;20;22;25;0,448275862;0,689655172;0,75862069;0,862068966
+51.22;Transports spatiaux;R;;3;1;2;2;2;0,333333333;0,666666667;0,666666667;0,666666667
+52.10;Entreposage et stockage;R;;1947;815;1289;1447;1611;0,419;0,662;0,743;0,827
+52.21;Services auxiliaires des transports terrestres;R;;883;522;721;778;814;0,591166478;0,816534541;0,881087203;0,921857305
+52.22;Services auxiliaires des transports par eau;R;;359;158;244;279;310;0,440111421;0,679665738;0,777158774;0,863509749
+52.23;Services auxiliaires des transports aériens;R;;256;77;122;141;169;0,30078125;0,4765625;0,55078125;0,66015625
+52.24;Manutention;R;;564;166;270;331;403;0,294;0,479;0,587;0,715
+52.29;Autres services auxiliaires des transports;R;;3634;1200;2163;2521;2895;0,3302;0,595;0,694;0,797
+53.10;Activités de poste dans le cadre d'une obligation de service universel;R;;29;1;1;1;3;0,034482759;0,034482759;0,034482759;0,103448276
+53.20;Autres activités de poste et de courrier;R;;1501;940;1291;1363;1433;0,626249167;0,860093271;0,908061292;0,954696869
+55.10;Hôtels et hébergement similaire;M;Village vacances = refus ;28641;10574;21049;24429;27304;0,36919102;0,734925457;0,852938096;0,953318669
+55.20;Hébergement touristique et autre hébergement de courte durée;M;A voir dans le détail ;10977;8786;10485;10672;10826;0,800400838;0,955179011;0,972214631;0,986243965
+55.30;Terrains de camping et parcs pour caravanes ou véhicules de loisirs;R;;4948;2727;4590;4815;4916;0,55113177;0,927647534;0,973120453;0,993532741
+55.90;Autres hébergements;R;;562;81;246;334;460;0,144128114;0,43772242;0,59430605;0,818505338
+56.10;Restaurants et services de restauration mobile;M;refus de la restauration mobile (càd restauration ds les TGV, bateaux…) :;143984;61762;124696;135045;140660;0,429;0,866;0,938;0,977
+56.21;Services des traiteurs;A;;5279;3083;4573;4873;5120;0,584012124;0,86626255;0,923091495;0,969880659
+56.29;Autres services de restauration;R;Restauration collective sous contrat : UGP en UEA = Refus;1720;169;1190;1358;1497;0,0098;0,692;0,789;0,8703
+56.30;Débits de boissons;M;refus des discothèques et des vendeurs de boissons itinérants;36298;21049;34809;35814;36214;0,579894209;0,958978456;0,986665932;0,997685823
+58.11;Édition de livres;M;Activité acceptée et ASS COM 90 (UGP en UEA) si il s'agit de la mise en page et de la conception sans l'impression (donc cette restriction a été mise en commentaires). Ici l'édition de livres sur d'autres supports que le papier est refusée (à vérifier);3554;2407;3167;3313;3422;0,677265053;0,89110861;0,932189083;0,962858751
+58.12;Édition de répertoires et de fichiers d'adresses;R;;39;28;30;36;37;0,717948718;0,769230769;0,923076923;0,948717949
+58.13;Édition de journaux;R;;1568;931;1283;1365;1441;0,59375;0,818239796;0,870535714;0,919005102
+58.14;Édition de revues et périodiques;R;;4373;2493;3571;3865;4102;0,570089184;0,816601875;0,883832609;0,938028813
+58.19;Autres activités d'édition;M;A VERIFIER CAR SOUS-CLASSES TRES DIVERSES (et pouvant être assimilées à SER 11 Services informatiques);1448;1016;1347;1384;1417;0,701657459;0,930248619;0,955801105;0,97859116
+58.21;Édition de jeux électroniques;M;;91;45;65;68;77;0,494505495;0,714285714;0,747252747;0,846153846
+58.29;Édition d'autres logiciels;M;;4312;2094;3175;3515;3855;0,486;0,736;0,8151;0,894
+59.11;Production de films cinématographiques, de vidéo et de programmes de télévision;M;;10553;7205;9764;10101;10374;0,683;0,925;0,957;0,983
+59.12;Post-production de films cinématographiques, de vidéo et de programmes de télévision;R;;1321;742;1087;1156;1229;0,561695685;0,822861469;0,875094625;0,930355791
+59.13;Distribution de films cinématographiques, de vidéo et de programmes de télévision;R;;924;638;830;862;892;0,6904;0,8982;0,933;0,9653
+59.14;Projection de films cinématographiques;R;;985;221;586;732;878;0,224365482;0,594923858;0,743147208;0,891370558
+59.20;Enregistrement sonore et édition musicale;R;;3942;3171;3836;3899;3925;0,804414003;0,973110096;0,989091832;0,995687468
+60.10;Édition et diffusion de programmes radio;R;;947;211;769;860;903;0,22280887;0,812038015;0,90813094;0,953537487
+60.20;Programmation de télévision et télédiffusion;R;;215;71;100;115;143;0,3302;0,465;0,5348;0,665
+61.10;Télécommunications filaires;R;;861;472;724;768;807;0,548199768;0,840882695;0,891986063;0,93728223
+61.20;Télécommunications sans fil;R;;237;84;155;177;198;0,35443038;0,654008439;0,746835443;0,835443038
+61.30;Télécommunications par satellite;R;;87;41;71;73;79;0,471264368;0,816091954;0,83908046;0,908045977
+61.90;Autres activités de télécommunication;R;;2984;2136;2799;2865;2912;0,715817694;0,938002681;0,960120643;0,975871314
+62.01;Programmation informatique;M;Refus de ce que l'INSEE nomme les originaux de logiciels et de jeux vidéos (les droits de propriété intellectuelle) : à vérifier;13978;10136;12691;13210;13606;0,725139505;0,907926742;0,945056517;0,973386751
+62.02;Conseil informatique;A;;29147;20656;26049;27050;27659;0,7086;0,8937;0,928;0,9489
+62.03;Gestion d'installations informatiques;R;;482;259;363;385;410;0,537344398;0,753112033;0,798755187;0,850622407
+62.09;Autres activités informatiques;R;;2114;1614;1982;2039;2088;0,763481552;0,93755913;0,964522233;0,987701041
+63.11;Traitement de données, hébergement et activités connexes;R;;4686;2798;3916;4142;4364;0,597097738;0,835680751;0,883909518;0,931284678
+63.12;Portails Internet;R;;607;446;553;571;582;0,73476112;0,911037891;0,940691928;0,958813839
+63.91;Activités des agences de presse;R;;2511;2114;2374;2434;2464;0,841895659;0,945440064;0,969334926;0,981282358
+63.99;Autres services d'information n.c.a.;R;;1340;1092;1293;1318;1331;0,814925373;0,964925373;0,98358209;0,993283582
+64.11;Activités de banque centrale;R;;9;5;6;6;6;0,555555556;0,666666667;0,666666667;0,666666667
+64.19;Autres intermédiations monétaires;R;;5467;4446;4728;4845;5077;0,813243095;0,864825316;0,88622645;0,928662886
+64.20;Activités des sociétés holding;R;;58819;41246;54753;56887;58140;0,701235995;0,930872677;0,967153471;0,988456111
+64.30;Fonds de placement et entités financières similaires;R;;2263;307;1834;2050;2176;0,135660627;0,810428635;0,905877154;0,961555457
+64.91;Crédit-bail;R;;303;246;263;267;272;0,811881188;0,867986799;0,881188119;0,897689769
+64.92;Autre distribution de crédit;R;;537;347;431;444;456;0,646182495;0,802607076;0,826815642;0,849162011
+64.99;Autres activités des services financiers, hors assurance et caisses de retraite, n.c.a.;R;;776;528;681;704;732;0,680412371;0,87757732;0,907216495;0,943298969
+65.11;Assurance vie;R;;271;166;214;218;223;0,612546125;0,789667897;0,804428044;0,822878229
+65.12;Autres assurances;R;;2544;1354;1800;1916;2063;0,532232704;0,70754717;0,753144654;0,810927673
+65.20;Réassurance;R;;76;44;52;57;60;0,578947368;0,684210526;0,75;0,789473684
+65.30;Caisses de retraite;R;;35;18;24;24;27;0,514285714;0,685714286;0,685714286;0,771428571
+66.11;Administration de marchés financiers;R;;109;86;96;100;103;0,788990826;0,880733945;0,917431193;0,944954128
+66.12;Courtage de valeurs mobilières et de marchandises;R;;605;460;567;578;585;0,760330579;0,937190083;0,955371901;0,966942149
+66.19;Autres activités auxiliaires de services financiers, hors assurance et caisses de retraite;R;;12789;7350;12171;12486;12643;0,5747;0,9516;0,976;0,9885
+66.21;Évaluation des risques et dommages;R;;704;285;491;599;663;0,404829545;0,697443182;0,850852273;0,941761364
+66.22;Activités des agents et courtiers d'assurances;R;;28130;15673;26310;27363;27854;0,557163171;0,935300391;0,972733736;0,990188411
+66.29;Autres activités auxiliaires d'assurance et de caisses de retraite;R;;767;499;715;743;759;0,650586701;0,93220339;0,968709257;0,989569752
+66.30;Gestion de fonds;R;;5708;4179;5226;5408;5563;0,732130343;0,915557113;0,947442186;0,974597057
+68.10;Activités des marchands de biens immobiliers;R;;26065;22797;25795;25967;26046;0,874621139;0,989641281;0,996240169;0,999271053
+68.20;Location et exploitation de biens immobiliers propres ou loués;M;;87260;76788;85917;86340;86593;0,88;0,9846;0,9895;0,9924
+68.31;Agences immobilières;A;;48634;30092;45434;47432;48256;0,618744088;0,93420241;0,97528478;0,99222766
+68.32;Administration de biens immobiliers;R;;9090;5396;7614;8184;8690;0,5936;0,8376;0,9;0,956
+69.10;Activités juridiques;A;;56294;37593;50680;53520;55523;0,667797634;0,900273564;0,95072299;0,986304047
+69.20;Activités comptables;A;;22268;9582;16383;18956;21092;0,430303575;0,735719418;0,851266391;0,947188791
+70.10;Activités des sièges sociaux;R;;4039;2594;3282;3452;3602;0,642238178;0,812577371;0,854666997;0,891804902
+70.21;Conseil en relations publiques et communication;R;;5083;4221;4891;4964;5031;0,830415109;0,962227031;0,976588629;0,989769821
+70.22;Conseil pour les affaires et autres conseils de gestion;M;"refus de 2 activités : ""agencement de bureaux"" et ""marque déposée""";91056;71407;86960;88776;90000;0,784209717;0,955016693;0,974960464;0,988402741
+71.11;Activités d'architecture;A;;31271;21229;29383;30506;31073;0,678871798;0,939624572;0,97553644;0,993668255
+71.12;Activités d'ingénierie;M;SER 07;39745;22933;33605;36090;38038;0,577;0,8455;0,908;0,957
+71.20;Activités de contrôle et analyses techniques;R;;9812;4398;8800;9271;9520;0,448;0,8968;0,9449;0,9702
+72.11;Recherche-développement en biotechnologie;R;;722;346;532;580;646;0,479224377;0,736842105;0,8033241;0,894736842
+72.19;Recherche-développement en autres sciences physiques et naturelles;R;;2485;1298;1947;2083;2231;0,522334004;0,783501006;0,838229376;0,89778672
+72.20;Recherche-développement en sciences humaines et sociales;R;;661;372;582;616;639;0,562783661;0,880484115;0,931921331;0,966717095
+73.11;Activités des agences de publicité;A;;18802;11444;16513;17493;18217;0,608658653;0,878257632;0,930379747;0,968886289
+73.12;Régie publicitaire de médias;A;;4445;3052;4024;4193;4316;0,686614173;0,905286839;0,943307087;0,970978628
+73.20;Études de marché et sondages;A;;2791;1757;2385;2504;2629;0,629523468;0,854532426;0,897169473;0,941956288
+74.10;Activités spécialisées de design;M;2 activités acceptées : architecte d'intérieur et créateur de meubles;4364;3682;4244;4302;4335;0,843721357;0,972502291;0,985792851;0,99335472
+74.20;Activités photographiques;M;"A voir pr certaines activités comme photographie sous-marine…Classe très fournie et ne se limitant au ""simple"" photographe";8267;6288;8040;8173;8232;0,760614491;0,97254143;0,988629491;0,9957663
+74.30;Traduction et interprétation;A;;10009;9247;9845;9928;9982;0,923868518;0,983614747;0,991907283;0,997302428
+74.90;Autres activités spécialisées, scientifiques et techniques n.c.a.;M;A voir : très détaillé (ex : service de gestion des droits d'auteur…);8079;5889;7537;7795;7948;0,729;0,9329;0,9648;0,9837
+75.00;Activités vétérinaires;M;refus des services vétérinaires hospitaliers;8555;4195;7814;8403;8544;0,490356517;0,913383986;0,982232613;0,998714202
+77.11;Location et location-bail de voitures et de véhicules automobiles légers;R;;2988;1971;2678;2796;2886;0,659;0,896;0,9357;0,9659
+77.12;Location et location-bail de camions;R;;798;560;704;745;773;0,701754386;0,882205514;0,93358396;0,968671679
+77.21;Location et location-bail d'articles de loisirs et de sport;M;1 Activité refusée : location de bateaux de plaisance;1450;1000;1369;1410;1435;0,689655172;0,944137931;0,972413793;0,989655172
+77.22;Location de vidéocassettes et disques vidéo;A;;990;688;970;988;989;0,694949495;0,97979798;0,997979798;0,998989899
+77.29;Location et location-bail d'autres biens personnels et domestiques;M;Ass à vérifier;3544;2548;3253;3361;3445;0,718961625;0,917889391;0,948363431;0,972065463
+77.31;Location et location-bail de machines et équipements agricoles;R;;6875;6351;6843;6861;6873;0,923781818;0,995345455;0,997963636;0,999709091
+77.32;Location et location-bail de machines et équipements pour la construction;A;Avec des limitations (cf doc);1930;884;1468;1650;1787;0,458031088;0,760621762;0,85492228;0,925906736
+77.33;Location et location-bail de machines de bureau et de matériel informatique;R;;279;173;237;253;263;0,620071685;0,849462366;0,906810036;0,94265233
+77.34;Location et location-bail de matériels de transport par eau;R;;339;307;337;337;338;0,90560472;0,994100295;0,994100295;0,997050147
+77.35;Location et location-bail de matériels de transport aérien;R;;433;408;429;432;433;0,942263279;0,990762125;0,997690531;1
+77.39;Location et location-bail d'autres machines, équipements et biens matériels n.c.a.;R;;2898;2015;2578;2706;2802;0,695307108;0,88957902;0,933747412;0,966873706
+77.40;Location-bail de propriété intellectuelle et de produits similaires, à l'exception des œuvres soumises à copyright;R;;504;385;457;472;483;0,763888889;0,906746032;0,936507937;0,958333333
+78.10;Activités des agences de placement de main-d'œuvre;A;;814;290;539;614;699;0,356265356;0,662162162;0,754299754;0,858722359
+78.20;Activités des agences de travail temporaire;A;;2336;284;1578;2052;2240;0,121575342;0,675513699;0,878424658;0,95890411
+78.30;Autre mise à disposition de ressources humaines;M;A vérifier car Ass;6590;2841;5193;5573;5951;0,431107739;0,78801214;0,845675266;0,903034901
+79.11;Activités des agences de voyage;A;;4510;1285;3472;3952;4275;0,284922395;0,769844789;0,876274945;0,94789357
+79.12;Activités des voyagistes;M;Ass de certaines activités à Agence de voyage : à vérifier;498;160;341;397;444;0,321285141;0,684738956;0,797188755;0,891566265
+79.90;Autres services de réservation et activités connexes;M;1 activité acceptée : la fourniture d'informations sur les destinations aux voyageurs par l'intermédiaire notamment de brochures (ASS à Agence de voyage);2349;558;1911;2108;2240;0,237547893;0,813537676;0,89740315;0,953597275
+80.10;Activités de sécurité privée;M;;9392;5462;7046;7606;8322;0,581558773;0,750212947;0,80983816;0,886073254
+80.20;Activités liées aux systèmes de sécurité;M;On accepte uniquement la vente d'alarmes;1037;513;799;869;945;0,494696239;0,770491803;0,837994214;0,911282546
+80.30;Activités d'enquête;A;;338;280;327;331;333;0,828402367;0,967455621;0,979289941;0,985207101
+81.10;Activités combinées de soutien lié aux bâtiments;R;;251;140;221;225;234;0,557768924;0,880478088;0,896414343;0,932270916
+81.21;Nettoyage courant des bâtiments;A;;14885;7630;11217;12248;13292;0,512596574;0,753577427;0,822841787;0,89297951
+81.22;Autres activités de nettoyage des bâtiments et nettoyage industriel;M;A vérifier car classe avec énormément de détails sur les activités la composant, services de nettoyage spécialisés dans tout type de bâtiment;4320;2190;3271;3612;3922;0,506944444;0,757175926;0,836111111;0,90787037
+81.29;Autres activités de nettoyage;M;A vérifier : nettoyage de toutes sortes d'objets (la plupart sont refusées);2077;1223;1786;1897;1985;0,5888;0,8598;0,9133;0,9557
+81.30;Services d'aménagement paysager;A;;28319;19378;26319;27257;27941;0,684275575;0,929376037;0,962498676;0,986652071
+82.11;Services administratifs combinés de bureau;A;;2586;1824;2435;2513;2555;0,705336427;0,941608662;0,971771075;0,988012374
+82.19;Photocopie, préparation de documents et autres activités spécialisées de soutien de bureau;M;A voir;18970;5467;17538;18272;18666;0,288191882;0,924512388;0,963205061;0,983974697
+82.20;Activités de centres d'appels;M;A voir car assimilations;793;321;472;534;608;0,404791929;0,595208071;0,673392182;0,766708701
+82.30;Organisation de salons professionnels et congrès;R;;4848;3356;4467;4617;4737;0,692244224;0,921410891;0,952351485;0,97710396
+82.91;Activités des agences de recouvrement de factures et des sociétés d'information financière sur la clientèle;R;;352;188;279;294;313;0,534090909;0,792613636;0,835227273;0,889204545
+82.92;Activités de conditionnement;R;;1259;427;745;869;988;0,339158062;0,591739476;0,690230342;0,784749801
+82.99;Autres activités de soutien aux entreprises n.c.a.;M;;25370;18791;23260;24027;24654;0,740677966;0,916830903;0,947063461;0,97177769
+84.11;Administration publique générale;R;;44182;3513;19514;26249;33435;0,079512018;0,44167308;0,594110724;0,756756145
+84.12;Administration publique (tutelle) de la santé, de la formation, de la culture et des services sociaux, autre que sécurité sociale;R;;5464;1503;3870;4496;4913;0,275073206;0,708272328;0,82284041;0,899158126
+84.13;Administration publique (tutelle) des activités économiques;R;;3706;1248;2348;2593;2879;0,336751214;0,633567188;0,699676201;0,776848354
+84.21;Affaires étrangères;R;;29;14;16;16;20;0,482758621;0,551724138;0,551724138;0,689655172
+84.22;Défense;R;;2;1;2;2;2;0,5;1;1;1
+84.23;Justice;R;;306;56;100;107;125;0,183006536;0,326797386;0,349673203;0,408496732
+84.24;Activités d'ordre public et de sécurité;R;;210;31;34;34;38;0,147619048;0,161904762;0,161904762;0,180952381
+84.25;Services du feu et de secours;R;;247;106;146;148;149;0,429149798;0,591093117;0,599190283;0,603238866
+84.30;Sécurité sociale obligatoire;R;;1040;327;398;422;471;0,3144;0,3827;0,1058;0,4528
+85.10;Enseignement pré-primaire;R;;71;1;26;34;57;0,014084507;0,366197183;0,478873239;0,802816901
+85.20;Enseignement primaire;R;;3856;55;881;1846;3160;0,014263485;0,228475104;0,47873444;0,819502075
+85.31;Enseignement secondaire général;R;;8628;134;204;259;585;0,01553083;0,02364395;0,030018544;0,067802503
+85.32;Enseignement secondaire technique ou professionnel;R;;2817;195;311;406;670;0,069222577;0,110401136;0,144124956;0,237841676
+85.41;Enseignement post-secondaire non supérieur;R;;44;19;24;29;37;0,431818182;0,545454545;0,659090909;0,840909091
+85.42;Enseignement supérieur;R;;1149;218;355;429;566;0,1897302;0,308964317;0,373368146;0,492602263
+85.51;Enseignement de disciplines sportives et d'activités de loisirs;R;;26976;24476;26573;26758;26881;0,90732503;0,985060795;0,991918743;0,996478351
+85.52;Enseignement culturel;R;;5361;4053;4906;5082;5274;0,756015669;0,915127775;0,947957471;0,983771684
+85.53;Enseignement de la conduite;M;refus des bateaux-écoles;9384;3896;8280;9006;9303;0,415174766;0,882352941;0,95971867;0,991368286
+85.59;Enseignements divers;M;1 activité acceptée : soutien scolaire à domicile (cf UGP en UEA);32069;21928;28242;29543;30802;0,6838;0,8806;0,9212;0,9605
+85.60;Activités de soutien à l'enseignement;R;;240;206;229;231;236;0,858333333;0,954166667;0,9625;0,983333333
+86.10;Activités hospitalières;R;;2847;311;402;452;540;0,109237794;0,141201264;0,158763611;0,18967334
+86.21;Activité des médecins généralistes;A;;75930;62104;74836;75275;75597;0,817911234;0,985591993;0,991373634;0,995614382
+86.22;Activité des médecins spécialistes;M;;41688;31892;41232;41464;41601;0,765;0,989;0,9946;0,998
+86.23;Pratique dentaire;M;;37597;19869;37311;37551;37586;0,528473016;0,99239301;0,998776498;0,999707423
+86.90;Autres activités pour la santé humaine;M;;169466;158050;163710;165819;168071;0,9326;0,966;0,978;0,9917
+87.10;Hébergement médicalisé;R;;3478;107;188;264;441;0,0307;0,054;0,076;0,127
+87.20;Hébergement social pour personnes handicapées mentales, malades mentales et toxicomanes;R;;506;28;67;94;155;0,055;0,1324;0,1857;0,3063
+87.30;Hébergement social pour personnes âgées ou handicapées physiques;R;;1509;430;554;661;798;0,285;0,367;0,438;0,5288
+87.90;Autres activités d'hébergement social;R;;1473;73;467;582;778;0,0495;0,317;0,3951;0,5282
+88.10;Action sociale sans hébergement pour personnes âgées et pour personnes handicapées;M;;6786;1033;2365;2873;4100;0,1522;0,3485;0,4233;0,6041
+88.91;Action sociale sans hébergement pour jeunes enfants;M;;2948;119;960;1742;2493;0,0403;0,3256;0,5909;0,8456
+88.99;Autre action sociale sans hébergement n.c.a.;R;;11602;766;5104;6338;7983;0,066;0,44;0,5462;0,688
+90.01;Arts du spectacle vivant;R;;12880;4573;11565;12202;12616;0,355046584;0,897903727;0,947360248;0,979503106
+90.02;Activités de soutien au spectacle vivant;M;1 activité acceptée : entreprise de location  de sono, éclairage, montage de structure pour spectacles ASS SER 10 (cf Manuel Produits);5100;3108;4601;4834;5003;0,609411765;0,902156863;0,947843137;0,980980392
+90.03;Création artistique;R;;16803;15979;16742;16771;16793;0,9509;0,996;0,998;0,999
+90.04;Gestion de salles de spectacles;R;;1311;261;787;949;1168;0,199084668;0,600305111;0,723874905;0,89092296
+91.01;Gestion des bibliothèques et des archives;R;;211;44;180;191;201;0,208530806;0,853080569;0,90521327;0,952606635
+91.02;Gestion des musées;R;;364;106;293;327;344;0,291208791;0,804945055;0,898351648;0,945054945
+91.03;Gestion des sites et monuments historiques et des attractions touristiques similaires;R;;783;258;585;638;698;0,329501916;0,747126437;0,814814815;0,891443167
+91.04;Gestion des jardins botaniques et zoologiques et des réserves naturelles;R;;435;121;295;336;369;0,27816092;0,67816092;0,772413793;0,848275862
+92.00;Organisation de jeux de hasard et d'argent;R;;808;358;508;580;609;0,443069307;0,628712871;0,717821782;0,753712871
+93.11;Gestion d'installations sportives;R;;3179;1074;2444;2726;2988;0,337842089;0,768795219;0,857502359;0,939918213
+93.12;Activités de clubs de sports;R;;19062;448;16828;17904;18612;0,023502256;0,882803483;0,939250866;0,976392823
+93.13;Activités des centres de culture physique;R;;785;351;719;769;780;0,447133758;0,915923567;0,979617834;0,993630573
+93.19;Autres activités liées au sport;R;;3173;2514;3050;3103;3131;0,792310117;0,961235424;0,977938859;0,986763315
+93.21;Activités des parcs d'attractions et parcs à thèmes;R;;2999;2624;2918;2957;2968;0,874958319;0,972990997;0,985995332;0,989663221
+93.29;Autres activités récréatives et de loisirs;R;;13448;9436;12726;13101;13346;0,701665675;0,946311719;0,974196907;0,992415229
+94.11;Activités des organisations patronales et consulaires;R;;3483;585;2435;2730;2963;0,167958656;0,699109963;0,783807063;0,850703417
+94.12;Activités des organisations professionnelles;R;;2276;494;1897;2077;2194;0,217047452;0,833479789;0,912565905;0,96397188
+94.20;Activités des syndicats de salariés;R;;3659;1156;3339;3497;3564;0,315933315;0,912544411;0,955725608;0,974036622
+94.91;Activités des organisations religieuses;R;;6473;2302;5875;6135;6310;0,355631083;0,907616252;0,947783099;0,974818477
+94.92;Activités des organisations politiques;R;;204;50;187;195;199;0,245098039;0,916666667;0,955882353;0,975490196
+94.99;Activités des organisations associatives n.c.a.;R;;31496;292;23329;26596;29367;0,009271019;0,740697231;0,844424689;0,932404115
+95.11;Réparation d'ordinateurs et d'équipements périphériques;A;;5914;4717;5662;5775;5843;0,797598918;0,957389246;0,976496449;0,987994589
+95.12;Réparation d'équipements de communication;A;;75;34;46;57;62;0,453333333;0,613333333;0,76;0,826666667
+95.21;Réparation de produits électroniques grand public;A;;2504;1702;2371;2432;2467;0,67971246;0,946884984;0,971246006;0,985223642
+95.22;Réparation d'appareils électroménagers et d'équipements pour la maison et le jardin;A;;2274;1449;2118;2195;2249;0,637203166;0,931398417;0,965259455;0,989006157
+95.23;Réparation de chaussures et d'articles en cuir;A;;3316;2604;3289;3307;3314;0,785283474;0,99185766;0,997285887;0,999396864
+95.24;Réparation de meubles et d'équipements du foyer;A;;2214;1757;2157;2203;2211;0,793586269;0,974254743;0,995031617;0,998644986
+95.25;Réparation d'articles d'horlogerie et de bijouterie;M;;810;637;780;793;803;0,786419753;0,962962963;0,979012346;0,991358025
+95.29;Réparation d'autres biens personnels et domestiques;M;;7130;5594;6999;7084;7117;0,78457223;0,981626928;0,993548387;0,998176718
+96.01;Blanchisserie-teinturerie;M;Refus des services de teinture des vêtements;9436;5540;8831;9107;9279;0,587;0,936;0,9651;0,983
+96.02;Coiffure et soins de beauté;M;Quelques exceptions comme l'épilation définitive ou le maquillage permanent;86143;45008;81716;84830;85935;0,522;0,9486;0,9848;0,9976
+96.03;Services funéraires;M;;2865;826;2012;2473;2781;0,288307155;0,702268761;0,863176265;0,970680628
+96.04;Entretien corporel;R;;6691;5009;6435;6549;6619;0,748617546;0,96173965;0,978777462;0,989239277
+96.09;Autres services personnels n.c.a.;M;;19720;16941;19035;19300;19533;0,859077079;0,965263692;0,978701826;0,990517241
+97.00;Activités des ménages en tant qu'employeurs de personnel domestique;M;;;;;;;;;;
+98.10;Activités indifférenciées des ménages en tant que producteurs de biens pour usage propre;R;;;;;;;;;;
+98.20;Activités indifférenciées des ménages en tant que producteurs de services pour usage propre;R;;;;;;;;;;
+99.00;Activités des organisations et organismes extraterritoriaux;R;;;;;;;;;;

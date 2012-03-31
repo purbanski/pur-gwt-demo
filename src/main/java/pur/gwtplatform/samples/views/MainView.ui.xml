@@ -1,0 +1,27 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'
+	ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
+	ui:generateKeys='com.google.gwt.i18n.rebind.keygen.MD5KeyGenerator'
+	ui:generateLocales='default' xmlns:p1="urn:import:com.google.gwt.user.cellview.client">
+
+	<g:HTMLPanel width="1050px" height="1050px">
+		<g:LayoutPanel width="1245px" height="950px">
+			<g:layer left="10px" top="18px" bottom="25px" right="179px">
+				<g:VerticalPanel ui:field="panel1" borderWidth="2" width="1050px" height="850px">
+					<g:HorizontalPanel horizontalAlignment="ALIGN_CENTER">
+						<g:Cell verticalAlignment="ALIGN_MIDDLE">
+							<g:Label text="Les résultats de la recherche" ui:field="labelStock" styleName="gwt-RichTextToolbar" width="854px" height="42px"/>
+						</g:Cell>
+						<g:Button text="Ouvrir popup de recherche" ui:field="popupButton" width="190px" height="49px"/>
+					</g:HorizontalPanel>
+					<g:Cell verticalAlignment="ALIGN_MIDDLE">
+						<p1:DataGrid width="1050px" height="850px" ui:field="dataGrid" title="Les résultats de la recherche"/>
+					</g:Cell>
+				</g:VerticalPanel>
+			</g:layer>
+		</g:LayoutPanel>
+		
+	</g:HTMLPanel>
+</ui:UiBinder>

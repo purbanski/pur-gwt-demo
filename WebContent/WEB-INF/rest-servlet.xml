@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:oxm="http://www.springframework.org/schema/oxm"
+	xmlns:context="http://www.springframework.org/schema/context" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/oxm http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd"
+	default-autowire="byName">
+
+	<!-- Import des paramétrages de déploiement -->
+	<context:component-scan base-package="fr.pacifica.ua"/>
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations" value="classpath:applicationConfig.properties" />
+	</bean>
+	
+	<oxm:jaxb2-marshaller id="jaxbMarshaller">
+		<oxm:class-to-be-bound name="fr.pacifica.ua.mp.ElementResult"/>
+		<oxm:class-to-be-bound name="fr.pacifica.ua.mp.SearchResult" />
+		<oxm:class-to-be-bound name="fr.pacifica.ua.co.ElementResult"/>
+		<oxm:class-to-be-bound name="fr.pacifica.ua.co.SearchResult" />
+		<oxm:class-to-be-bound name="fr.pacifica.ua.mp.SearchDicoResult" />
+	</oxm:jaxb2-marshaller>
+
+	<bean id="jaxbAnnIntrospector" class="org.codehaus.jackson.xc.JaxbAnnotationIntrospector" />
+
+	<bean id="jacksonObjectMapper" class="org.codehaus.jackson.map.ObjectMapper">
+		<property name="serializationConfig.annotationIntrospector"
+			ref="jaxbAnnIntrospector" />
+		<property name="deserializationConfig.annotationIntrospector"
+			ref="jaxbAnnIntrospector" />
+	</bean>
+
+	<bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+		<property name="mediaTypes">
+			<map>
+				<entry key="json" value="application/json" />
+				<entry key="xml" value="application/xml" />
+				<entry key="htm" value="application/html"/>
+			</map>
+		</property>
+		<property name="defaultViews">
+			<list>
+				<bean
+					class="org.springframework.web.servlet.view.json.MappingJacksonJsonView">
+					<property name="objectMapper" ref="jacksonObjectMapper" />
+				</bean> 
+				<bean class="org.springframework.web.servlet.view.xml.MarshallingView">
+					<property name="marshaller" ref="jaxbMarshaller" />
+				</bean>
+			</list>
+		</property>
+	</bean>
+</beans>
