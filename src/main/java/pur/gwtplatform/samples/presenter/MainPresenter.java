@@ -26,7 +26,7 @@ import com.gwtplatform.mvp.client.proxy.RevealRootPopupContentEvent;
 public class MainPresenter extends Presenter<IMainView, MainPresenter.MyProxy> {
 	private EventBus eventBus;
 	private final PlaceManager placeManager;
-	private DeleteDialogPresenter deleteDialogPresenter;
+	private RechercheDialogPresenter rechercheDialogPresenter;
 
 	@ProxyCodeSplit
 	@NameToken(NameTokens.main)
@@ -36,11 +36,11 @@ public class MainPresenter extends Presenter<IMainView, MainPresenter.MyProxy> {
 
 	@Inject
 	public MainPresenter(EventBus eventBus, IMainView view, MyProxy proxy, PlaceManager placeManager,
-			DispatchAsync dispatcher, DeleteDialogPresenter deleteDialogPresenter) {
+			DispatchAsync dispatcher, RechercheDialogPresenter rechercheDialogPresenter) {
 		super(eventBus, view, proxy);
 		this.eventBus = eventBus;
 		this.placeManager = placeManager;
-		this.deleteDialogPresenter = deleteDialogPresenter;
+		this.rechercheDialogPresenter = rechercheDialogPresenter;
 	}
 
 	@Override
@@ -60,11 +60,12 @@ public class MainPresenter extends Presenter<IMainView, MainPresenter.MyProxy> {
 		gererEvenements();
 		enregistrerBoutonOuvPopup();
 		RootPanel root = RootPanel.get("gwt");
-		root.add(getView().getPopupButton());
+		//root.add(getView().getPopupButton());
+		root.add(getView().getRechercheImage());
 	}
 
-	private void enregistrerBoutonOuvPopup() {
-		registerHandler(getView().getPopupButton().addClickHandler(new ClickHandler() {
+	private void enregistrerBoutonOuvPopup() {		
+		registerHandler(getView().getRechercheImage().addClickHandler(new ClickHandler() {
 			@Override
 			public void onClick(ClickEvent event) {
 				openPopupSupp();
@@ -85,7 +86,7 @@ public class MainPresenter extends Presenter<IMainView, MainPresenter.MyProxy> {
 	}
 
 	private void openPopupSupp() {
-		RevealRootPopupContentEvent.fire(this, deleteDialogPresenter);
+		RevealRootPopupContentEvent.fire(this, rechercheDialogPresenter);
 	}
 
 	public static native void alert(String msg) /*-{

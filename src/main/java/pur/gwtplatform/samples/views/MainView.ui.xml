@@ -6,11 +6,11 @@
 	ui:generateKeys='com.google.gwt.i18n.rebind.keygen.MD5KeyGenerator'
 	ui:generateLocales='default' xmlns:p1="urn:import:com.google.gwt.user.cellview.client">
 
-	<g:HTMLPanel width="1050px" height="350px" ui:field="htmlPanel">
-		<g:LayoutPanel width="842px" height="56px">
-			<g:layer>
-				<g:HorizontalPanel horizontalAlignment="ALIGN_CENTER" width="838px" height="38px">
-						<g:Button text="Widget de recherche" ui:field="popupButton" width="144px" height="27px"/>
+	<g:HTMLPanel width="70px" height="350px" ui:field="htmlPanel">
+		<g:LayoutPanel width="64px" height="56px">
+			<g:layer left="0px" width="64px">
+				<g:HorizontalPanel horizontalAlignment="ALIGN_LEFT" width="70px" height="38px">
+						<g:Image url="images/search.jpg" width="30px" height="32px" ui:field="rechercheImage" styleName="gwt-Image"/>
 					</g:HorizontalPanel>
 			</g:layer>
 		</g:LayoutPanel>

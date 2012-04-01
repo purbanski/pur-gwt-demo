@@ -12,7 +12,7 @@ import pur.gwtplatform.samples.events.UpdateDataGridEvent;
 import pur.gwtplatform.samples.model.Data;
 import pur.gwtplatform.samples.model.ElementResult;
 import pur.gwtplatform.samples.services.DataService;
-import pur.gwtplatform.samples.views.IDeleteDialogView;
+import pur.gwtplatform.samples.views.IRechercheDialogView;
 
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
@@ -22,7 +22,6 @@ import com.google.gwt.event.logical.shared.SelectionEvent;
 import com.google.gwt.event.logical.shared.SelectionHandler;
 import com.google.gwt.user.cellview.client.DataGrid;
 import com.google.gwt.user.cellview.client.TextColumn;
-import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.MultiWordSuggestOracle;
 import com.google.gwt.user.client.ui.SuggestOracle;
 import com.google.gwt.user.client.ui.SuggestOracle.Suggestion;
@@ -32,62 +31,18 @@ import com.google.inject.Inject;
 import com.google.web.bindery.event.shared.EventBus;
 import com.gwtplatform.mvp.client.PresenterWidget;
 
-public class DeleteDialogPresenter extends PresenterWidget<IDeleteDialogView> {
+public class RechercheDialogPresenter extends PresenterWidget<IRechercheDialogView> {
 	private EventBus eventBus;
 	private MultiWordSuggestOracle oracle = new MultiWordSuggestOracle();
 	List<Data> array = new ArrayList<Data>();
 	private List<ElementResult> liste = new ArrayList<ElementResult>(10);
 	private DataGrid dataGrid = null;
-	private TextColumn<ElementResult> kColumn = new TextColumn<ElementResult>() {
 
-		@Override
-		public String getValue(ElementResult data) {
-			return data.getK();
-		}
-	};
-
-	private TextColumn<ElementResult> nColumn = new TextColumn<ElementResult>() {
-
-		@Override
-		public String getValue(ElementResult data) {
-			return data.getN();
-		}
-	};
-	private TextColumn<ElementResult> oColumn = new TextColumn<ElementResult>() {
-
-		@Override
-		public String getValue(ElementResult data) {
-			return data.getO();
-		}
-	};
-	private TextColumn<ElementResult> pColumn = new TextColumn<ElementResult>() {
-
-		@Override
-		public String getValue(ElementResult data) {
-			return data.getP();
-		}
-	};
-
-	private TextColumn<ElementResult> lColumn = new TextColumn<ElementResult>() {
-
-		@Override
-		public String getValue(ElementResult data) {
-			return data.getL();
-		}
-	};
-	private TextColumn<ElementResult> hColumn = new TextColumn<ElementResult>() {
-
-		@Override
-		public String getValue(ElementResult data) {
-			return data.getHighs();
-		}
-	};
-	
 	@Inject
 	private DataService dataService;
 
 	@Inject
-	public DeleteDialogPresenter(final EventBus eventBus, final IDeleteDialogView view) {
+	public RechercheDialogPresenter(final EventBus eventBus, final IRechercheDialogView view) {
 		super(eventBus, view);
 		this.eventBus = eventBus;
 	}
@@ -140,7 +95,7 @@ public class DeleteDialogPresenter extends PresenterWidget<IDeleteDialogView> {
 				String texte = getView().getAutoCompleteBox().getText();
 				if (texte.length() > 0) {
 					dataService.getDataDico(array, texte);
-					//appelServiceIndex(texte);
+					// appelServiceIndex(texte);
 				}
 			}
 		}));
@@ -169,8 +124,53 @@ public class DeleteDialogPresenter extends PresenterWidget<IDeleteDialogView> {
 
 	private void initDataGrid() {
 
+		TextColumn<ElementResult> kColumn = new TextColumn<ElementResult>() {
+
+			@Override
+			public String getValue(ElementResult data) {
+				return data.getK();
+			}
+		};
+
+		TextColumn<ElementResult> nColumn = new TextColumn<ElementResult>() {
+
+			@Override
+			public String getValue(ElementResult data) {
+				return data.getN();
+			}
+		};
+		TextColumn<ElementResult> oColumn = new TextColumn<ElementResult>() {
+
+			@Override
+			public String getValue(ElementResult data) {
+				return data.getO();
+			}
+		};
+		TextColumn<ElementResult> pColumn = new TextColumn<ElementResult>() {
+
+			@Override
+			public String getValue(ElementResult data) {
+				return data.getP();
+			}
+		};
+
+		TextColumn<ElementResult> lColumn = new TextColumn<ElementResult>() {
+
+			@Override
+			public String getValue(ElementResult data) {
+				return data.getL();
+			}
+		};
+		TextColumn<ElementResult> hColumn = new TextColumn<ElementResult>() {
+
+			@Override
+			public String getValue(ElementResult data) {
+				return data.getHighs();
+			}
+		};
+
 		dataGrid = getView().getGrilleResultat();
-		dataGrid.setSize("1190px", "700px");
+		dataGrid.setSize("1180px", "700px");
 		dataGrid.addColumn(kColumn, "SC NAF3142");
 		dataGrid.addColumn(lColumn, "Libell\u00E9 NAF3142");
 		dataGrid.addColumn(nColumn, "CodePck 1");
@@ -185,21 +185,20 @@ public class DeleteDialogPresenter extends PresenterWidget<IDeleteDialogView> {
 		dataGrid.setColumnWidth(lColumn, "300px");
 		dataGrid.setColumnWidth(hColumn, "480px");
 		dataGrid.setRowData(liste);
-		
-		
-		 // Add a selection model to handle user selection.
-	    final SingleSelectionModel<ElementResult> selectionModel = new SingleSelectionModel<ElementResult>();
-	    dataGrid.setSelectionModel(selectionModel);
-	    selectionModel.addSelectionChangeHandler(new SelectionChangeEvent.Handler() {
-	      public void onSelectionChange(SelectionChangeEvent event) {
-	    	  ElementResult selected = selectionModel.getSelectedObject();
-	        if (selected != null) {	         
-	          eventBus.fireEvent(new CodeChoisiEvent(selected.getN()));
-	        }
-	        getView().asWidget().hide();
-	      }
-	    });
-		
+
+		// Add a selection model to handle user selection.
+		final SingleSelectionModel<ElementResult> selectionModel = new SingleSelectionModel<ElementResult>();
+		dataGrid.setSelectionModel(selectionModel);
+		selectionModel.addSelectionChangeHandler(new SelectionChangeEvent.Handler() {
+			public void onSelectionChange(SelectionChangeEvent event) {
+				ElementResult selected = selectionModel.getSelectedObject();
+				if (selected != null) {
+					eventBus.fireEvent(new CodeChoisiEvent(selected.getN()));
+				}
+				getView().asWidget().hide();
+			}
+		});
+
 	}
 
 	private void appelServiceIndex(String query) {

@@ -13,18 +13,16 @@
 			<g:LayoutPanel width="1190px" height="788px">
 				<g:layer left="211px" width="491px" top="55px" height="50px">
 					<g:VerticalPanel width="376px" height="50px">
-						<g:HorizontalPanel width="370px"
+						<g:HorizontalPanel width="438px"
 							verticalAlignment="ALIGN_MIDDLE">
 							<g:SuggestBox ui:field="autoCompleteBox" focus="true" width="267px" />
 							<g:Button text="Rechercher" ui:field="rechercherBouton"/>
+							<g:Button ui:field="annulerButton" text="Annuler" width="82" />
 						</g:HorizontalPanel>
 					</g:VerticalPanel>
 				</g:layer>
 				<g:layer left="0px" width="1190px" top="129px" height="700px">
-					<p1:DataGrid width="1190px" height="700px" ui:field="grilleResultat" title="Les résultats de la recherche" pageSize="10"/>
-				</g:layer>
-				<g:layer left="976px" width="161px" top="55px" height="24px">
-					<g:Button ui:field="annulerButton" text="Fermer le widget" width="102" />
+					<p1:DataGrid width="1180px" height="700px" ui:field="grilleResultat" title="Les résultats de la recherche" pageSize="10"/>
 				</g:layer>
 			</g:LayoutPanel>
 		</g:HTMLPanel>

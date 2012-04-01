@@ -6,7 +6,7 @@ import com.google.gwt.user.client.ui.PopupPanel;
 import com.google.gwt.user.client.ui.SuggestBox;
 import com.gwtplatform.mvp.client.PopupView;
 
-public interface IDeleteDialogView extends PopupView {
+public interface IRechercheDialogView extends PopupView {
 	Button getAnnulerButton();
 
 	SuggestBox getAutoCompleteBox();

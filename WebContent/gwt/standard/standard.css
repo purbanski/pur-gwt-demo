@@ -244,8 +244,24 @@ a, a:visited, a:hover {
 .gwt-Hyperlink {
 }
 
+
 .gwt-Image {
-	background-image: /images/search.jpg;
+  cursor: hand;
+}
+
+.gwt-Image:hover {
+  cursor: hand;
+  border-color: #9cf #69e #69e #7af;
+}
+
+.gwt-Image-Search {
+	cursor: hand;
+	background-image: images/search.jpg;
+}
+
+.gwt-Image-Search:hover {
+  cursor: hand;
+  border-color: #9cf #69e #69e #7af;
 }
 
 .gwt-Label {
@@ -1144,3 +1160,4 @@ td.datePickerMonth {
   background: #d0e4f6 url(images/splitPanelThumb.png) center center no-repeat;
   cursor: row-resize;
 }
+

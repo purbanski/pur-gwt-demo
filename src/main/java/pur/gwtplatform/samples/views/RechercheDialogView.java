@@ -10,15 +10,15 @@ import com.google.web.bindery.event.shared.EventBus;
 import com.gwtplatform.mvp.client.PopupViewImpl;
 import com.google.gwt.user.cellview.client.DataGrid;
 
-public class DeleteDialogView extends PopupViewImpl implements IDeleteDialogView {
+public class RechercheDialogView extends PopupViewImpl implements IRechercheDialogView {
 
 	private final PopupPanel widget;
 
-	public interface Binder extends UiBinder<PopupPanel, DeleteDialogView> {
+	public interface Binder extends UiBinder<PopupPanel, RechercheDialogView> {
 	}
 
 	@Inject
-	public DeleteDialogView(final EventBus eventBus, final Binder binder) {
+	public RechercheDialogView(final EventBus eventBus, final Binder binder) {
 		super(eventBus);
 		widget = binder.createAndBindUi(this);
 	}

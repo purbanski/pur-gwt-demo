@@ -16,10 +16,10 @@
 
 package pur.gwtplatform.samples.modules;
 
-import pur.gwtplatform.samples.presenter.DeleteDialogPresenter;
+import pur.gwtplatform.samples.presenter.RechercheDialogPresenter;
 import pur.gwtplatform.samples.presenter.MainPresenter;
-import pur.gwtplatform.samples.views.DeleteDialogView;
-import pur.gwtplatform.samples.views.IDeleteDialogView;
+import pur.gwtplatform.samples.views.RechercheDialogView;
+import pur.gwtplatform.samples.views.IRechercheDialogView;
 import pur.gwtplatform.samples.views.IMainView;
 import pur.gwtplatform.samples.views.MainView;
 
@@ -36,7 +36,7 @@ public class Module extends AbstractPresenterModule {
 		// Presenters
 		bindPresenter(MainPresenter.class, IMainView.class, MainView.class, MainPresenter.MyProxy.class);
 		// bind des popups
-		bindSingletonPresenterWidget(DeleteDialogPresenter.class, IDeleteDialogView.class, DeleteDialogView.class);
+		bindSingletonPresenterWidget(RechercheDialogPresenter.class, IRechercheDialogView.class, RechercheDialogView.class);
 
 	}
 }
