@@ -1,9 +1,15 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the    -->
+<!-- browser's rendering engine into               -->
+<!-- "Standards Mode". Replacing this declaration  -->
+<!-- with a "Quirks Mode" doctype may lead to some -->
+<!-- differences in layout.                        -->
 <html>
 <head>
 <link rel="StyleSheet" type="text/css" href="ressources\general.css" />
 <link rel="StyleSheet" type="text/css" href="ressources\tableau.css" />
-<link rel="StyleSheet" type="text/css" href="ressources\divpopup.css" />
-
+<link type="text/css" rel="stylesheet" href="Gwtpsample.css">
+<title>Sweb</title>
 <!--                                           -->
 <!-- This script loads your compiled module.   -->
 <!-- If you add any GWT meta tags, they must   -->
@@ -15,14 +21,7 @@
 
 <body class="body">
 
-	<script language="javascript">
-		var serveurRessources = '/webstatic';
-		if (window.document.body.style.cursor == 'wait') {
-			window.document.body.style.cursor = "default";
-			setVisibleItem(false, 'blocChargement');
-		}
-	</script>
-	
+		
 
 		<table border=1 class="titlePage"
 			style="top: 0px; left: 0px; width: 790px">
@@ -94,7 +93,7 @@
 
 
 		<table
-			style="position: absolute; left: 50px; top: 179px; width: 192px; align:center; "
+			style="position: absolute; left: 50px; top: 179px; width: 180px; align:center; "
 			border="0" cellSpacing="0" cellPadding="0">
 			<tr>
 				<td>Code PCK: <input type="text" name="codePck"
@@ -169,8 +168,7 @@
 
 		<span class="staticDoubleBrillance"
 			style="position: absolute; left: 10px; top: 503px; width: 500px;"
-			onclick="ouvrirAideNavigation(event);">SAISIE DU CODE
-			PCK&nbsp;&nbsp;-------></span> <span class="staticDoubleBrillance"
+			onclick="ouvrirAideNavigation(event);">SAISIE DU CODE&nbsp;&nbsp;-------></span> <span class="staticDoubleBrillance"
 			style='position: absolute; left: 582px; top: 505px; width: 126px'>CHOIX</span>
 		<input autocomplete="OFF" type="text" typeInput="alphanum"
 			maxLength="10" class="champSaisie" id="NAVIGATIONØP_CDCHOI"
@@ -220,27 +218,6 @@
 
 
 
-			<!--input class="pbPFKey" type="button" title="F5"
-		style="position: absolute; left: 120px; top: 529px; width: 90px;"
-		value="Valider" onclick="actionValider();" name="Valider" /> 
-		<input class="pbPFKey" type="button" title="F2"
-		style="position: absolute; left: 230px; top: 529px; width: 90px;"
-		value="Forcer" name="Forcer" /> 
-		
-		<input class="pbPFKey" type="button"
-		title="F12"
-		style="position: absolute; left: 340px; top: 529px; width: 90px;"
-		value="Tables" onclick="actionValider(event);" name="Tables" />
-	
-	<input class="pbPFKey" type="button" title="F4" value="Menu"
-		style="position: absolute; left: 450px; top: 529px; width: 90px;"
-		onclick="actionValider()" name="Menu" /> 
-		
-		<input class="pbPFKey"
-		type="button" title="F3" style="left: 560px; top: 529px; width: 90px;"
-		value="Retour" onclick="actionValider()" name="Retour" /-->
-
-
 			<!-- Bloc d'action en mode ouverture de sinistre -->
 
 
@@ -255,13 +232,17 @@
 				</table> <br></span>
 
 		</div>
-	</form>
-	<!--script language="JavaScript">fwkInitPUEnCours(document.getElementById('frm_fwk'),document.getElementById('serveur').value,document.getElementById('serveurDynamique').value);</script>
-<script language="JavaScript">
- window.onload = function() {
-initialiserEvenementWindow();afficheMessageForcage();;
+	<!-- OPTIONAL: include this if you want history support -->
+	<iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1'
+		style="position: absolute; width: 0; height: 0; border: 0"></iframe>
 
-}</script-->
+	<!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+	<noscript>
+		<div
+			style="width: 22em; position: absolute; left: 100%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+			Your web browser must have JavaScript enabled in order for this
+			application to display correctly.</div>
+	</noscript>
 </body>
 </html>
 
