@@ -10,7 +10,7 @@
 		<g:LayoutPanel width="64px" height="56px">
 			<g:layer left="0px" width="64px">
 				<g:HorizontalPanel horizontalAlignment="ALIGN_LEFT" width="70px" height="38px">
-						<g:Image url="images/search.jpg" width="30px" height="32px" ui:field="rechercheImage" styleName="gwt-Image"/>
+						<g:Image url="images/search.png" width="30px" height="30px" ui:field="rechercheImage" styleName="gwt-Image"/>
 					</g:HorizontalPanel>
 			</g:layer>
 		</g:LayoutPanel>
