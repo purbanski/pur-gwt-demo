@@ -1,0 +1,116 @@
+/*met les jours en noir et les affiche en vert si on passe la souris dessus*/
+.Gjourclic
+{
+	color: Black;
+    width: 		20px;
+	font-size:	11px;
+	height: 	20px;
+	border:		solid 1px  #f2f5f2;
+	font-family: 	Arial,Helvetica,sans-serif;
+	font-weight: 	bold;
+	text-align:	center;
+	FONT-STYLE: normal;
+	TEXT-DECORATION: none
+}
+
+A.Gjourclic:hover
+{
+	color: #ffffff;
+	background:	#84aaad ;
+	width: 		20px;
+	font-size:	11px;
+	height: 	20px;
+	border:		solid 1px #84aaad ;
+	font-family: 	Arial,Helvetica,sans-serif;
+	text-align:	center;
+}
+
+
+
+ 
+/*grise les jours sans rendez vous possible*/
+.GjourSansRDV
+{
+	background-color: #DDDDDD;
+	color: #666666;
+	text-align:	center;
+	width: 		20px;
+	font-weight:bold;
+	font-size: 11px;
+	height: 	20px;
+	line-height:	16px;
+	font-family: 	Arial,Helvetica,sans-serif;
+}
+
+/*croix pour fermer le calendrier*/
+.Gcroix
+{
+	font-family: 	Arial,Helvetica,sans-serif;
+	font-weight: 	bold;
+	font-size:	11px;
+	color:		#000000;
+	text-decoration: none;
+	cursor:		pointer;
+}
+
+/* champs texte */
+.Gname
+{
+	font-family: 	Arial,Helvetica,sans-serif;
+	font-weight: 	bold;
+	font-size:	11px;
+	color:		#ffffff;
+	text-decoration: none;
+	cursor:		pointer;
+}
+
+/* tableau des jours */
+
+.Gtab
+{
+	font-family: 	Arial,Helvetica,sans-serif;
+	font-weight: 	normal;
+	font-size:	11px;
+	text-decoration: none;
+	border:	solid 1px #000000;
+	background:	#f2f5f2;
+	text-align:	center;
+	width:		154px;
+}
+/*affiche les jours de la semaine*/
+.Gh0
+{
+	width: 		20px;
+	font-size:	11px;
+	height: 	16px;
+	border:		solid 1px #84aaad ;
+	background:	#84aaad ;
+	font-family: 	Arial,Helvetica,sans-serif;
+	font-weight: 	bold;
+	color:		#ffffff;
+	text-align:	center;
+	line-height:	16px;
+}
+
+/* libelle mois */
+.Gtxt
+{
+	font-family: 	Arial,Helvetica,sans-serif;
+	font-weight: 	normal;
+	font-size:	11px;
+	color:		#6c628a;
+	text-decoration: none;
+	margin-left:	0px;
+}
+
+
+
+
+
+
+
+
+
+
+		
+

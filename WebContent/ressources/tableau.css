@@ -1,0 +1,80 @@
+.ZoneListHead
+{
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px solid;
+    BORDER-BOTTOM: #000000 1px solid;
+    BORDER-LEFT: #000000 1px solid;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: 'Lucida Console';
+    BACKGROUND-COLOR: #47c7c7;
+    COLOR: white; 
+}
+
+.ZoneListBody
+{ 
+    COLOR: #005353;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bolder;
+    FONT-FAMILY: 'Lucida Console';
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-LEFT: #000000 1px solid;
+}
+
+.ZoneListMouseOut
+{
+    COLOR: #005353;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: 'Lucida Console';
+}
+.ZoneListMouseOver
+{
+    COLOR: #93170D;
+    CURSOR: hand;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: 'Lucida Console';
+}
+
+.ZoneListLineDeselected
+{ 
+    BACKGROUND-COLOR: #eeeeee;
+    text-align: left;    
+}
+
+.ZoneListLineSelected
+{ 
+    CURSOR: hand;
+    BACKGROUND-COLOR: #FEFFE7;  
+    
+}
+
+.ZoneListConsultation
+{
+    BACKGROUND-COLOR: #eeeeee;
+    COLOR: black;
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal; 
+	FONT-WEIGHT: bold;       
+}
+.ZoneListVisibleEFColumn
+{
+	
+}
+
+.ZoneListVisibleEF
+{
+    BACKGROUND-COLOR: #d4f2f2;
+    BORDER : 1px ridge black;
+    COLOR: black;
+    FONT-FAMILY: 'Lucida Console';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;    
+}
+.ZoneListMouseOutReversedVideo
+{
+    COLOR: black;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: 'Lucida Console';
+}

@@ -1,0 +1,267 @@
+<html>
+<head>
+<link rel="StyleSheet" type="text/css" href="ressources\general.css" />
+<link rel="StyleSheet" type="text/css" href="ressources\tableau.css" />
+<link rel="StyleSheet" type="text/css" href="ressources\divpopup.css" />
+
+<!--                                           -->
+<!-- This script loads your compiled module.   -->
+<!-- If you add any GWT meta tags, they must   -->
+<!-- be added before this line.                -->
+<!--                                           -->
+<script type="text/javascript" src="gwtpsample/gwtpsample.nocache.js"></script>
+</head>
+
+
+<body class="body">
+
+	<script language="javascript">
+		var serveurRessources = '/webstatic';
+		if (window.document.body.style.cursor == 'wait') {
+			window.document.body.style.cursor = "default";
+			setVisibleItem(false, 'blocChargement');
+		}
+	</script>
+	
+
+		<table border=1 class="titlePage"
+			style="top: 0px; left: 0px; width: 790px">
+			<tr>
+				<td width=100%>&nbsp;</td>
+			</tr>
+		</table>
+		<span style="position: absolute; top: 1px; left: 0px; width: 775px">
+			<table class='headerpacifica' border="0" width="100%">
+				<tr>
+					<td align="left">Gestion des sinistres - Synth&egrave;se du
+						contrat&nbsp;:&nbsp;Consultation</td>
+					<td align="right">Assurances Pck</td>
+				</tr>
+			</table>
+		</span>
+
+
+
+
+		<!-- <table width="100%" cellpadding="1px" >-->
+		<!--	<tr> -->
+
+		<span class='static3' style='top: 49px; left: 25px; width: 98px'>Client</span>
+		<span class='static3' style='top: 49px; left: 124px; width: 180px'>868HEMON67062701</span>
+		<span class='static3' style='top: 49px; left: 295px; width: 333px'>MME
+			HEMON ISABELLE</span> <span class='static3'
+			style='top: 73px; left: 25px; width: 98px'>N&deg;contrat</span> <span
+			class='static3' style='top: 73px; left: 124px; width: 153px'>2019110540</span>
+		<span class='static3' style='top: 73px; left: 268px; width: 36px'>MH</span>
+		<span class='static3' style='top: 73px; left: 295px; width: 117px'>ECO</span>
+		<span class='static3' style='top: 73px; left: 403px; width: 306px'>CREDIT
+			AGRICOLE CENTRE FRANCE</span> <span class='static3'
+			style='top: 73px; left: 700px; width: 30px'>868</span> <span
+			class='static3' style='top: 97px; left: 25px; width: 98px'>N&deg;image</span>
+		<span class='static3' style='top: 97px; left: 124px; width: 54px'>001</span>
+		<span class='static3' style='top: 97px; left: 169px; width: 45px'>A.n</span>
+		<span class='static3' style='top: 97px; left: 205px; width: 117px'>01/06/2009</span>
+		<span class='static3' style='top: 97px; left: 313px; width: 45px'>Avt</span>
+		<span class='static3' style='top: 97px; left: 349px; width: 117px'>01/06/2009</span>
+		<span class='static3' style='top: 97px; left: 457px; width: 170px'>Fin
+			effet contrat</span> <span class='static3'
+			style='top: 97px; left: 620px; width: 170px'></span>
+
+		<!-- Données MH -->
+		<span class='staticDoubleBrillance'
+			style='left: 24px; top: 121px; width: 91px'>Date surv</span> <span
+			class='static' style='left: 114px; top: 121px; width: 90px'>18/11/2010</span>
+		<span class='staticDoubleBrillance'
+			style='left: 213px; top: 121px; width: 91px'>Mt indice</span> <span
+			class='static'
+			style='text-align: right; left: 303px; top: 121px; width: 99px'>122,6300</span>
+		<span class='staticDoubleBrillance'
+			style='left: 411px; top: 121px; width: 127px'>Cadeau Frch :</span> <span
+			class='static' style='left: 546px; top: 121px; width: 9px'>N</span> <span
+			class='staticDoubleBrillance'
+			style='left: 564px; top: 121px; width: 154px'>Risque
+			d&eacute;coup&eacute; :</span> <span class='static'
+			style='left: 717px; top: 121px; width: 9px'>N</span> <span
+			class='staticDoubleBrillance'
+			style='left: 24px; top: 145px; width: 136px'>Adresse client</span> <span
+			class='static' style='left: 159px; top: 145px; width: 220px'>78140&nbsp;VELIZY
+			VILLACOUB</span> <span class='staticDoubleBrillance'
+			style='left: 375px; top: 145px; width: 27px'>Tel</span> <span
+			class='static' style='left: 411px; top: 145px; width: 90px'>0139467012</span>
+		<span class='staticDoubleBrillance'
+			style='left: 564px; top: 145px; width: 154px'>Risque H.Norme :</span>
+		<span class='static' style='left: 717px; top: 145px; width: 9px'>N</span>
+
+
+		<table
+			style="position: absolute; left: 50px; top: 179px; width: 192px; align:center; "
+			border="0" cellSpacing="0" cellPadding="0">
+			<tr>
+				<td>Code PCK: <input type="text" name="codePck"
+					id="codePck" style="width: 70px;" value="????" />
+				</td>
+				<td id="gwt"></td>
+			</tr>
+		</table>
+		
+		<!-- Données MH -->
+
+		<span class='staticDoubleBrillance'
+			style='left: 24px; top: 217px; width: 162px'>Plafond mobilier
+			:</span> <span class='static'
+			style='text-align: right; left: 195px; top: 217px; width: 63px'>19853</span>
+		<span class='staticDoubleBrillance'
+			style='left: 276px; top: 217px; width: 117px'>D&eacute;pendances
+			:</span> <span class='static'
+			style='text-align: right; left: 402px; top: 217px; width: 45px'>0</span>
+		<span class='static' style='left: 456px; top: 217px; width: 18px'>M&sup2;</span>
+		<span class='staticDoubleBrillance'
+			style='left: 492px; top: 217px; width: 99px'>Frch Sech :</span> <span
+			class='static' style='left: 609px; top: 217px; width: 45px'>1520</span>
+
+
+		<span class='static' style='left: 24px; top: 331px; width: 765px;'></span>
+
+		<span class='staticDoubleBrillance'
+			style='left: 24px; top: 241px; width: 81px'>Sinistres</span> <span
+			class='static'
+			style='text-align: right; left: 110px; top: 241px; width: 40px'>18</span>
+		<span class='staticDoubleBrillance'
+			style='left: 159px; top: 241px; width: 36px'>M&eacute;mo</span> <span
+			class='static' style='left: 204px; top: 241px; width: 45px'>SIN+PROD</span>
+		<span class='staticDoubleBrillance'
+			style='left: 285px; top: 241px; width: 63px'>Tar.Spe</span> <span
+			class='static' style='left: 360px; top: 241px; width: 400px'>SALARIE
+			CR </span> <span class='staticDoubleBrillance'
+			style='left: 654px; top: 241px; width: 54px'>Adoss.</span> <span
+			class='static' style='left: 717px; top: 241px; width: 9px'>N</span> <span
+			class='staticDoubleBrillance'
+			style='left: 24px; top: 409px; width: 72px'>Ech&eacute;ance</span> <span
+			class='static' style='left: 105px; top: 409px'>EXIGIBLE</span> <span
+			class='static'
+			style='text-align: right; left: 195px; top: 409px; width: 504px'></span>
+		<!-- Données MH -->
+
+		<span class='static' style='left: 24px; top: 433px; width: 300px'>2
+			RUE HENRI RABOURDIN</span> <span class='static'
+			style='left: 321px; top: 433px; width: 300px'>VELIZY
+			VILLACOUBLAY</span> <span class='static'
+			style='left: 618px; top: 433px; width: 100px'>78140</span> <span
+			class='static' style='left: 24px; top: 457px; width: 120px'>APPARTEMENT</span>
+		<span class='static' style='left: 132px; top: 457px; width: 200px'>RÉSIDENCE
+			PRINCIPALE</span> <span class='static'
+			style='left: 321px; top: 457px; width: 300px'>PROPRIÉTAIRE
+			OCCUPANT</span> <span class='static'
+			style='left: 600px; top: 457px; width: 110px'>NB PIECES</span> <span
+			class='static' style='left: 708px; top: 457px; width: 40px'>1</span>
+		<span class='static' style='left: 24px; top: 481px; width: 120px'>ETUDIANT</span>
+
+		<span class='static' style='left: 132px; top: 481px; width: 600px'>Seuil
+			PJ&nbsp;:&nbsp;</span> <span class='static'
+			style='text-align: right; left: 231px; top: 481px; width: 54px'>150</span>
+
+
+
+
+
+		<!-- Bloc d'action en mode gestion de sinistre -->
+
+
+		<span class="staticDoubleBrillance"
+			style="position: absolute; left: 10px; top: 503px; width: 500px;"
+			onclick="ouvrirAideNavigation(event);">SAISIE DU CODE
+			PCK&nbsp;&nbsp;-------></span> <span class="staticDoubleBrillance"
+			style='position: absolute; left: 582px; top: 505px; width: 126px'>CHOIX</span>
+		<input autocomplete="OFF" type="text" typeInput="alphanum"
+			maxLength="10" class="champSaisie" id="NAVIGATIONØP_CDCHOI"
+			name="NAVIGATIONØP_CDCHOI" size="3"
+			style="position: absolute; left: 652px; top: 503px;"
+			onchange="this.className='champSaisie'" onblur="actionValider(null);"
+			onclick="actionValider()" onfocus="actionValider()"
+			onkeyup="actionValider(this);" onkeypress="sendtoHostevt()" /> 
+
+		<div id="tohide">
+
+			<input class="pbPFKey" type="button"
+				style="position: absolute; left: 10px; top: 529px; width: 80px;"
+				value="Aff Mess"
+				onclick="top.AfficheMessage('0', '0', '1', 'Un message d erreur est apparu', 'titre de la boite de dialogue', 'Information', 2, 'OK', 'Annuler', null, '1');"
+				name="Controler" /> <input class="pbPFKey" type="button"
+				style="position: absolute; left: 100px; top: 529px; width: 80px;"
+				value="Af Fenet"
+				onclick="top.priseAfficheFenetre('SWEB', 'http://www.google.fr', 'google', 'contenu de la fenetre', '1');"
+				name="Controler2" /> <input class="pbPFKey" type="button"
+				style="position: absolute; left: 190px; top: 529px; width: 80px;"
+				value="Set Ctx"
+				onclick="top.setContexteApp('11122233345', '<xmlflux>bla bla bla</xmlflux>');"
+				name="Controler3" /> <input class="pbPFKey" type="button"
+				style="position: absolute; left: 280px; top: 529px; width: 80px;"
+				value="Get Ctx" onclick="top.getContexte('SWEB', 'vue.vue.vue');"
+				name="Controler4" /> <input class="pbPFKey" type="button"
+				style="position: absolute; left: 370px; top: 529px; width: 80px;"
+				value="Imprime"
+				onclick="top.imprimer('pm_URL', 'pm_nbEx', 'pm_mode', 'pm_type', 'pm_format', 'pm_msge', 'pm_apercu', 'pm_caracteristiques', 'pm_sauvegarde', 'pm_nomDocument');"
+				name="Controler5" /> <input class="pbPFKey" type="button"
+				style="position: absolute; left: 460px; top: 529px; width: 80px;"
+				value="Wrt Perf"
+				onclick="top.writePerf('p_sAction', 'p_sMesure', 'p_sMessage');"
+				name="Controler6" /> <input class="pbPFKey" type="button"
+				style="position: absolute; left: 550px; top: 529px; width: 80px;"
+				value="wrt trace"
+				onclick="top.writeTrace('error', 'fatal', '254155', 'gros soucis');"
+				name="Controler7" /> <input class="pbPFKey" type="button"
+				style="position: absolute; left: 640px; top: 529px; width: 80px;"
+				value="Send Evt" onclick="sendtoHostevt();" name="Controler8" /> <input
+				class="pbPFKey" type="button"
+				style="position: absolute; left: 730px; top: 529px; width: 80px;"
+				value="Ouv F Sin" onclick="dermanderOuvertureFicheSinistre();"
+				name="Controler8" />
+
+
+
+
+			<!--input class="pbPFKey" type="button" title="F5"
+		style="position: absolute; left: 120px; top: 529px; width: 90px;"
+		value="Valider" onclick="actionValider();" name="Valider" /> 
+		<input class="pbPFKey" type="button" title="F2"
+		style="position: absolute; left: 230px; top: 529px; width: 90px;"
+		value="Forcer" name="Forcer" /> 
+		
+		<input class="pbPFKey" type="button"
+		title="F12"
+		style="position: absolute; left: 340px; top: 529px; width: 90px;"
+		value="Tables" onclick="actionValider(event);" name="Tables" />
+	
+	<input class="pbPFKey" type="button" title="F4" value="Menu"
+		style="position: absolute; left: 450px; top: 529px; width: 90px;"
+		onclick="actionValider()" name="Menu" /> 
+		
+		<input class="pbPFKey"
+		type="button" title="F3" style="left: 560px; top: 529px; width: 90px;"
+		value="Retour" onclick="actionValider()" name="Retour" /-->
+
+
+			<!-- Bloc d'action en mode ouverture de sinistre -->
+
+
+			<span
+				style='position: absolute; left: 17px; top: 553px; width: 770px'><table
+					valign="center" cellSpacing=3 cellPadding=4 width="100%" border=0>
+					<tr>
+						<td width="20px"><img src="ressources\attention.jpg" /></td>
+						<td><span class="messageWarn" align="middle">0179&nbsp;MISE
+								A JOUR DU SINISTRE NUMERO 2007313540 EFFECTUEE</span></td>
+					</tr>
+				</table> <br></span>
+
+		</div>
+	</form>
+	<!--script language="JavaScript">fwkInitPUEnCours(document.getElementById('frm_fwk'),document.getElementById('serveur').value,document.getElementById('serveurDynamique').value);</script>
+<script language="JavaScript">
+ window.onload = function() {
+initialiserEvenementWindow();afficheMessageForcage();;
+
+}</script-->
+</body>
+</html>
+

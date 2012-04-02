@@ -1,0 +1,423 @@
+body.body {
+	POSITION:absolute;
+	BACKGROUND-REPEAT : NO-REPEAT;
+	COLOR: #008080;
+	font-family: "Courier New", Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE:100%;
+	BACKGROUND-COLOR: #e5e5e5;
+}
+
+body.aide {
+	POSITION:absolute;
+	BACKGROUND-REPEAT : NO-REPEAT;
+	COLOR: #008080;
+	font-family: "Courier New", Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #e5e5e5;
+}
+
+.hyperlien
+{
+    text-align: left;
+    BACKGROUND-COLOR: transparent;
+    COLOR: blue;
+    FONT-FAMILY: 'Courier New';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 11pt;
+    POSITION: absolute;
+    CURSOR:HAND;
+    text-decoration: underline;
+}
+
+.static
+{
+    POSITION:absolute;
+	text-align: left;
+    BACKGROUND-COLOR: transparent; 
+    COLOR: #005353;
+    FONT-FAMILY: 'Courier New';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 11pt;
+}
+
+.staticDoubleBrillanceAide
+{
+	text-align: left;
+    BACKGROUND-COLOR: transparent;
+    COLOR: black;
+    FONT-FAMILY: 'Courier New';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 11pt;
+}
+
+.staticDoubleBrillance
+{
+    POSITION:absolute;
+	text-align: left;
+    BACKGROUND-COLOR: transparent;
+    COLOR: black;
+    FONT-FAMILY: 'Courier New';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 11pt;
+}
+
+
+.static3
+{
+    POSITION:absolute;
+	text-align: left;
+    BACKGROUND-COLOR: transparent;
+    COLOR:#93170D;
+    FONT-FAMILY: 'Courier New';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 11pt;
+    
+}
+.titlePage
+{
+	POSITION:absolute;
+	BACKGROUND-COLOR: #008080;
+	font-family:Arial, Helvetica;
+	FONT-SIZE: 10pt;
+	Color : white;
+	font-weight : normal;
+}
+
+.headerpacifica
+{
+    POSITION:absolute;
+	COLOR: white;
+    FONT-FAMILY: 'Arial';
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 9pt;
+}
+
+.combobox
+{
+    POSITION: absolute;
+    BACKGROUND-COLOR: #E5F7F7;
+    BORDER-BOTTOM-WIDTH: thin;
+    BORDER-LEFT-WIDTH: thin;
+    BORDER-RIGHT-WIDTH: thin;
+    BORDER-TOP-WIDTH: thin;
+    COLOR: black;
+    FONT-FAMILY: 'Courier New';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11pt;
+}
+.comboboxError
+{
+    BACKGROUND-COLOR: #E5F7F7;
+    BORDER-BOTTOM-WIDTH: thin;
+    BORDER-LEFT-WIDTH: thin;
+    BORDER-RIGHT-WIDTH: thin;
+    BORDER-TOP-WIDTH: thin;
+    COLOR: #93170D;
+    FONT-FAMILY: 'Courier New';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11pt;
+    POSITION: absolute;
+}
+.comboboxFocus
+{
+    BACKGROUND-COLOR: #FEFFE7;
+    BORDER-BOTTOM-WIDTH: thin;
+    BORDER-LEFT-WIDTH: thin;
+    BORDER-RIGHT-WIDTH: thin;
+    BORDER-TOP-WIDTH: thin;
+    COLOR: black;
+    FONT-FAMILY: 'Courier New';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11pt;
+    POSITION: absolute;
+}
+
+.radio
+{
+    font-family : "Courier New",Verdana,Arial,Helvetica,sans-serif;
+    FONT-SIZE:11pt;
+    BACKGROUND-COLOR:#E5F7F7;
+    COLOR: black;
+    FONT-WEIGHT: bold;
+    vertical-align: top;
+    POSITION: absolute;
+}
+
+.radioFocus
+{
+    FONT-STYLE: italic;
+    font-family : "Courier New",Verdana,Arial,Helvetica,sans-serif;
+    FONT-SIZE:11pt;
+    BACKGROUND-COLOR:#FEFFE7;
+    COLOR: black;
+    FONT-WEIGHT: bold;
+    vertical-align: middle;
+    position : absolute;
+    
+}
+.radioError
+{
+    font-family : "Courier New",Verdana,Arial,Helvetica,sans-serif;
+    FONT-SIZE:11pt;
+    BACKGROUND-COLOR:#E5F7F7;
+    COLOR: #93170D;
+    FONT-WEIGHT: bold;
+    POSITION: absolute;
+    
+}
+
+
+.chkbox
+{
+    font-family : "Courier New",Verdana,Arial,Helvetica,sans-serif;
+    FONT-SIZE:11pt;
+    BACKGROUND-COLOR:#E5F7F7;
+    COLOR: black;
+    FONT-WEIGHT: bold;
+    vertical-align: top;
+    POSITION: absolute;
+}
+
+.chkboxFocus
+{
+    font-family : "Courier New",Verdana,Arial,Helvetica,sans-serif;
+    FONT-SIZE:11pt;
+    BACKGROUND-COLOR:#FEFFE7;
+    COLOR: black;
+    FONT-WEIGHT: bold;
+    vertical-align: middle;
+    position : absolute;
+    
+}
+.chkboxError
+{
+    font-family : "Courier New",Verdana,Arial,Helvetica,sans-serif;
+    FONT-SIZE:11pt;
+    BACKGROUND-COLOR:#93170D;
+    COLOR: #93170D;
+    FONT-WEIGHT: bold;
+    POSITION: absolute;
+}
+
+.ef
+{
+	POSITION: absolute;
+    font-family : "Courier New",Verdana,Arial,Helvetica,sans-serif;
+    FONT-SIZE:11pt;
+    BACKGROUND-COLOR:#E5F7F7;
+    BORDER-BOTTOM-WIDTH: thin;
+    BORDER-LEFT-WIDTH: thin;
+    BORDER-RIGHT-WIDTH: thin;
+    BORDER-TOP-WIDTH: thin;
+    COLOR: black;
+    FONT-FAMILY: 'Courier New';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: bold;
+    BACKGROUND-IMAGE: none;
+    
+}
+
+.efError
+{
+
+    font-family : "Courier New",Verdana,Arial,Helvetica,sans-serif;
+    FONT-SIZE:11pt;
+    BACKGROUND-COLOR:white;
+    BORDER-BOTTOM-WIDTH: thin;
+    BORDER-LEFT-WIDTH: thin;
+    BORDER-RIGHT-WIDTH: thin;
+    BORDER-TOP-WIDTH: thin;
+    COLOR: #93170D;
+    FONT-FAMILY: 'Courier New';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: bold;
+    POSITION: absolute;
+    BACKGROUND-IMAGE: none;
+}
+
+.efFocus
+{
+	font-family: "Courier New",Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE:11pt;
+	BACKGROUND-COLOR:#FEFFE7;
+	POSITION: absolute;
+	FONT-WEIGHT: bold;
+}
+
+.efTable
+{
+    BACKGROUND-COLOR: skyblue;
+    BORDER-BOTTOM-WIDTH: thin;
+    BORDER-LEFT-WIDTH: thin;
+    BORDER-RIGHT-WIDTH: thin;
+    BORDER-TOP-WIDTH: thin;
+    COLOR: black;
+    FONT-FAMILY: 'Courier New';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 11px;
+    POSITION: absolute;
+}
+
+.message
+{
+    BACKGROUND-COLOR: transparent;
+    COLOR: #93170D;
+    FONT-FAMILY: 'Courier New';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 15px;
+}
+
+.messageInfo
+{
+    BACKGROUND-COLOR: transparent;
+    COLOR: #008080;
+    FONT-FAMILY: 'Courier New';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 15px;
+}
+
+.messageWarn
+{
+    BACKGROUND-COLOR: transparent;
+    COLOR: #008080;
+    FONT-FAMILY: 'Courier New';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 15px;
+}
+
+
+.menuLink
+{
+    BACKGROUND-COLOR: transparent;
+    COLOR: blue;
+    FONT-FAMILY: 'Comic Sans MS';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10 pt;
+    POSITION: absolute;
+    
+}
+
+.pbPFKey
+{
+    BACKGROUND-COLOR: #008686;
+    BORDER-BOTTOM-WIDTH: 0;
+    BORDER-LEFT-WIDTH: 0;
+    BORDER-RIGHT-WIDTH: 0;
+    BORDER-TOP-WIDTH: 0;
+    COLOR: white;
+    font-family: 'Arial';
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10pt;
+    CURSOR:hand;
+    width:90px; 
+    POSITION: absolute;
+}
+
+
+A:link  {
+	color: #005353;
+	font-family: 'Arial';
+	font-size: 10pt;
+}
+A:visited  {
+	color: #005353;
+	font-family: 'Arial';
+	font-size: 10pt;
+}
+A:active {
+	color: #005353;
+	font-family: 'Arial';
+	font-size: 10pt;
+}
+A:HOVER {
+	color:#93170D;
+}
+.actionMenuLink {
+	POSITION:absolute;
+	COLOR: #005353;
+	font-family: "Courier New", Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE:100%;
+}
+
+.tdpbaction:link  {
+	text-decoration:none;
+	BACKGROUND-COLOR: transparent;
+	COLOR:#FAF0E6;
+	FONT-FAMILY: 'Arial';
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: bolder;
+	FONT-SIZE: 10pt;
+}
+.tdpbaction:visited  {
+	text-decoration:none;
+	BACKGROUND-COLOR: transparent;
+	COLOR:#FAF0E6;
+	FONT-FAMILY: 'Arial';
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: bolder;
+	FONT-SIZE: 10pt;
+}
+.tdpbaction:active {
+	text-decoration:none;
+	BACKGROUND-COLOR: transparent;
+	COLOR:#FAF0E6;
+	FONT-FAMILY: 'Arial';
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: bolder;
+	FONT-SIZE: 10pt;
+}
+.tdpbaction:HOVER {
+	text-decoration:none;
+	BACKGROUND-COLOR: transparent;
+	COLOR:red;
+	FONT-FAMILY: 'Arial';
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: bolder;
+	FONT-SIZE: 10pt;
+}
+
+#selector  {
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:0px;
+	height:0px;
+	background-color:transparent;
+	z-index: +2;
+	visibility:visible;
+}
+
+
