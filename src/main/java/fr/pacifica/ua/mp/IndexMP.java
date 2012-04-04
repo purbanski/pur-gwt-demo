@@ -21,6 +21,7 @@ import org.apache.lucene.queryParser.QueryParser;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.Query;
 import org.apache.lucene.search.TopDocs;
+import org.apache.lucene.search.highlight.GradientFormatter;
 import org.apache.lucene.search.highlight.Highlighter;
 import org.apache.lucene.search.highlight.InvalidTokenOffsetsException;
 import org.apache.lucene.search.highlight.QueryScorer;
@@ -144,7 +145,8 @@ public class IndexMP {
 	private String getHighlight(Document doc, Query q) throws IOException, InvalidTokenOffsetsException {
 
 		QueryScorer scorer = new QueryScorer(q);
-		Highlighter high = new Highlighter(scorer);
+		GradientFormatter formatter = new GradientFormatter(scorer.getMaxTermWeight(),"#888888","#ff8888","#ffffff",  "#ffffff");
+		Highlighter high = new Highlighter(formatter,scorer);
 		String[] fieldName = MpReaderCsv.libellesCsv;
 		StringBuffer bufhighs = new StringBuffer();
 		int maxBoucle = fieldName.length;
@@ -154,7 +156,7 @@ public class IndexMP {
 				TokenStream stream = getAnalyzer().tokenStream(fieldName[fi], new StringReader(texTemp));
 				String anHigh = high.getBestFragments(stream, texTemp, 3, "[...]");
 				if (anHigh != null && anHigh.length() > 1) {
-					bufhighs.append("Ex le champ <b>").append(fieldName[fi]).append("</b> contient :<i> ...]").append(anHigh).append("[...]</i>");
+					bufhighs.append("Le champ <b>[").append(fieldName[fi]).append("<b>] contient :<i> [").append(anHigh).append("]</i><br/>");
 				}
 			}
 

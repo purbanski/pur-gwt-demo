@@ -22,6 +22,7 @@ import com.google.gwt.event.logical.shared.SelectionEvent;
 import com.google.gwt.event.logical.shared.SelectionHandler;
 import com.google.gwt.user.cellview.client.DataGrid;
 import com.google.gwt.user.cellview.client.TextColumn;
+import com.google.gwt.user.client.ui.HTML;
 import com.google.gwt.user.client.ui.MultiWordSuggestOracle;
 import com.google.gwt.user.client.ui.SuggestOracle;
 import com.google.gwt.user.client.ui.SuggestOracle.Suggestion;
@@ -165,7 +166,7 @@ public class RechercheDialogPresenter extends PresenterWidget<IRechercheDialogVi
 
 			@Override
 			public String getValue(ElementResult data) {
-				return data.getHighs();
+				return new HTML(data.getHighs()).getText();
 			}
 		};
 
@@ -185,6 +186,7 @@ public class RechercheDialogPresenter extends PresenterWidget<IRechercheDialogVi
 		dataGrid.setColumnWidth(lColumn, "300px");
 		dataGrid.setColumnWidth(hColumn, "480px");
 		dataGrid.setRowData(liste);
+		dataGrid.setVisible(liste.isEmpty());
 
 		// Add a selection model to handle user selection.
 		final SingleSelectionModel<ElementResult> selectionModel = new SingleSelectionModel<ElementResult>();
