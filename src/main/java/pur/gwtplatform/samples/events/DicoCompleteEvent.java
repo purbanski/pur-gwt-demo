@@ -3,16 +3,16 @@ package pur.gwtplatform.samples.events;
 import com.google.gwt.event.shared.GwtEvent;
 import com.google.gwt.event.shared.EventHandler;
 
-import pur.gwtplatform.samples.model.Data;
+import pur.gwtplatform.samples.model.DicoResult;
 
 import com.google.gwt.event.shared.HasHandlers;
 
-public class DicoCompleteEvent extends GwtEvent<DicoCompleteEvent.InsertCompleteHandler> {
+public class DicoCompleteEvent extends GwtEvent<DicoCompleteEvent.DicoCompleteHandler> {
 
-	public static Type<InsertCompleteHandler> TYPE = new Type<InsertCompleteHandler>();
-	private Data data;
+	public static Type<DicoCompleteHandler> TYPE = new Type<DicoCompleteHandler>();
+	private DicoResult dicoResult;
 
-	public interface InsertCompleteHandler extends EventHandler {
+	public interface DicoCompleteHandler extends EventHandler {
 		void onInsertComplete(DicoCompleteEvent event);
 	}
 
@@ -20,29 +20,29 @@ public class DicoCompleteEvent extends GwtEvent<DicoCompleteEvent.InsertComplete
 		super();
 	}
 
-	public DicoCompleteEvent(Data data) {
-		this.data = data;
+	public DicoCompleteEvent(DicoResult dicoResult) {
+		this.dicoResult = dicoResult;
 	}
 
-	public Data getData() {
-		return data;
+	public DicoResult getDicoResult() {
+		return dicoResult;
 	}
 
 	@Override
-	protected void dispatch(InsertCompleteHandler handler) {
+	protected void dispatch(DicoCompleteHandler handler) {
 		handler.onInsertComplete(this);
 	}
 
 	@Override
-	public Type<InsertCompleteHandler> getAssociatedType() {
+	public Type<DicoCompleteHandler> getAssociatedType() {
 		return TYPE;
 	}
 
-	public static Type<InsertCompleteHandler> getType() {
+	public static Type<DicoCompleteHandler> getType() {
 		return TYPE;
 	}
 
-	public static void fire(HasHandlers source, Data data) {
+	public static void fire(HasHandlers source, DicoResult data) {
 		source.fireEvent(new DicoCompleteEvent(data));
 	}
 }

@@ -8,7 +8,7 @@ import org.fusesource.restygwt.client.Resource;
 
 import pur.gwtplatform.samples.events.DicoCompleteEvent;
 import pur.gwtplatform.samples.events.SearchCompleteEvent;
-import pur.gwtplatform.samples.model.Data;
+import pur.gwtplatform.samples.model.DicoResult;
 import pur.gwtplatform.samples.model.ElementResult;
 
 import com.google.gwt.json.client.JSONArray;
@@ -19,16 +19,16 @@ import com.google.inject.Inject;
 import com.google.web.bindery.event.shared.EventBus;
 
 
-public class DataService {
+public class MPService {
 	@Inject
 	private EventBus eventBus;
 	
 	private JSONArray array = new JSONArray();
 
-	public DataService() {
+	public MPService() {
 	}
 
-	public void getDataDico(final List<Data> liste, String query) {
+	public void searchDico(final List<DicoResult> liste, String query) {
 		Resource resource = new Resource("/rest/mp/dico/" +query + ".json");
 		resource.get().send(new JsonCallback() {
 			public void onSuccess(Method method, JSONValue response) {
@@ -37,7 +37,7 @@ public class DataService {
 				for (int i = 0; i < array.size(); i++) {
 					String value = array.get(i).isString().stringValue();
 					String key = value;
-					liste.add(new Data(key, value));
+					liste.add(new DicoResult(key, value));
 				}
 				eventBus.fireEvent(new DicoCompleteEvent());
 			}
@@ -47,7 +47,7 @@ public class DataService {
 		});
 	}
 	
-	public void getDataIndex(final List<ElementResult> liste, String query) {
+	public void search(final List<ElementResult> liste, String query) {
 		Resource resource = new Resource("/rest/mp/search/" +query + ".json");		
 		resource.get().send(new JsonCallback() {
 			public void onSuccess(Method method, JSONValue response) {

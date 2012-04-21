@@ -17,7 +17,7 @@
 							verticalAlignment="ALIGN_MIDDLE">
 							<g:SuggestBox ui:field="autoCompleteBox" focus="true" width="267px" />
 							<g:Button text="Rechercher" ui:field="rechercherBouton"/>
-							<g:Button ui:field="annulerButton" text="Annuler" width="82" />
+							<g:Button ui:field="annulerBouton" text="Annuler" width="82" />
 						</g:HorizontalPanel>
 					</g:VerticalPanel>
 				</g:layer>

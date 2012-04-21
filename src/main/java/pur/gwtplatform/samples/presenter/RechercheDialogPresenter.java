@@ -5,13 +5,12 @@ import java.util.List;
 
 import pur.gwtplatform.samples.events.CodeChoisiEvent;
 import pur.gwtplatform.samples.events.DicoCompleteEvent;
-import pur.gwtplatform.samples.events.DicoCompleteEvent.InsertCompleteHandler;
+import pur.gwtplatform.samples.events.DicoCompleteEvent.DicoCompleteHandler;
 import pur.gwtplatform.samples.events.SearchCompleteEvent;
 import pur.gwtplatform.samples.events.SearchCompleteEvent.SearchCompleteHandler;
-import pur.gwtplatform.samples.events.UpdateDataGridEvent;
-import pur.gwtplatform.samples.model.Data;
+import pur.gwtplatform.samples.model.DicoResult;
 import pur.gwtplatform.samples.model.ElementResult;
-import pur.gwtplatform.samples.services.DataService;
+import pur.gwtplatform.samples.services.MPService;
 import pur.gwtplatform.samples.views.IRechercheDialogView;
 
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -35,12 +34,13 @@ import com.gwtplatform.mvp.client.PresenterWidget;
 public class RechercheDialogPresenter extends PresenterWidget<IRechercheDialogView> {
 	private EventBus eventBus;
 	private MultiWordSuggestOracle oracle = new MultiWordSuggestOracle();
-	List<Data> array = new ArrayList<Data>();
+	List<DicoResult> array = new ArrayList<DicoResult>();
 	private List<ElementResult> liste = new ArrayList<ElementResult>(10);
 	private DataGrid dataGrid = null;
+	private String texteSaisie;
 
 	@Inject
-	private DataService dataService;
+	private MPService mpService;
 
 	@Inject
 	public RechercheDialogPresenter(final EventBus eventBus, final IRechercheDialogView view) {
@@ -59,7 +59,7 @@ public class RechercheDialogPresenter extends PresenterWidget<IRechercheDialogVi
 	}
 
 	private void enregistrerBoutonAnnuler() {
-		registerHandler(getView().getAnnulerButton().addClickHandler(new ClickHandler() {
+		registerHandler(getView().getAnnulerBouton().addClickHandler(new ClickHandler() {
 			@Override
 			public void onClick(ClickEvent event) {
 				getView().asWidget().hide();
@@ -72,7 +72,7 @@ public class RechercheDialogPresenter extends PresenterWidget<IRechercheDialogVi
 			@Override
 			public void onClick(ClickEvent event) {
 				String query = getView().getAutoCompleteBox().getText();
-				appelServiceIndex(query);
+				appelSearchMP(query);
 			}
 		}));
 	}
@@ -84,8 +84,7 @@ public class RechercheDialogPresenter extends PresenterWidget<IRechercheDialogVi
 					@Override
 					public void onSelection(SelectionEvent<Suggestion> event) {
 						String query = event.getSelectedItem().getReplacementString();
-						eventBus.fireEvent(new UpdateDataGridEvent(query));
-						appelServiceIndex(query);
+						appelSearchMP(query);
 					}
 				}));
 
@@ -94,24 +93,24 @@ public class RechercheDialogPresenter extends PresenterWidget<IRechercheDialogVi
 			@Override
 			public void onKeyUp(KeyUpEvent event) {
 				String texte = getView().getAutoCompleteBox().getText();
-				if (texte.length() > 0) {
-					dataService.getDataDico(array, texte);
-					// appelServiceIndex(texte);
+				if (texte.length() > 0 & !texte.equals(texteSaisie)) {
+					texteSaisie = texte;
+					mpService.searchDico(array, texte);					
 				}
-			}
-		}));
+			}			
+		}));		
 	}
 
 	private void refreshAutoCompBox() {
 		oracle = (MultiWordSuggestOracle) getView().getAutoCompleteBox().getSuggestOracle();
 		oracle.clear();
-		for (Data data : array) {
+		for (DicoResult data : array) {
 			oracle.add(data.getKey());
 		}
 	}
 
 	private void gererEvenements() {
-		registerHandler(eventBus.addHandler(DicoCompleteEvent.TYPE, new InsertCompleteHandler() {
+		registerHandler(eventBus.addHandler(DicoCompleteEvent.TYPE, new DicoCompleteHandler() {
 			public void onInsertComplete(DicoCompleteEvent event) {
 				refreshAutoCompBox();
 			}
@@ -203,9 +202,9 @@ public class RechercheDialogPresenter extends PresenterWidget<IRechercheDialogVi
 
 	}
 
-	private void appelServiceIndex(String query) {
+	private void appelSearchMP(String query) {
 		liste.clear();
-		dataService.getDataIndex(liste, query);
+		mpService.search(liste, query);
 	}
 
 	private void refreshDataGrid() {

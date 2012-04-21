@@ -31,13 +31,13 @@ public class RechercheDialogView extends PopupViewImpl implements IRechercheDial
 	@UiField
 	SuggestBox autoCompleteBox;
 	@UiField
-	Button annulerButton;	
+	Button annulerBouton;	
 	@UiField DataGrid grilleResultat;
 	@UiField Button rechercherBouton;
 
 
-	public Button getAnnulerButton() {
-		return annulerButton;
+	public Button getAnnulerBouton() {
+		return annulerBouton;
 	}
 
 	public SuggestBox getAutoCompleteBox() {

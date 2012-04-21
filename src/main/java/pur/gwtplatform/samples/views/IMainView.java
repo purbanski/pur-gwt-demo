@@ -1,6 +1,5 @@
 package pur.gwtplatform.samples.views;
 
-import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.user.client.ui.Image;
 import com.gwtplatform.mvp.client.View;

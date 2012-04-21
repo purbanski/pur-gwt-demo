@@ -60,7 +60,6 @@ public class MainPresenter extends Presenter<IMainView, MainPresenter.MyProxy> {
 		gererEvenements();
 		enregistrerBoutonOuvPopup();
 		RootPanel root = RootPanel.get("gwt");
-		//root.add(getView().getPopupButton());
 		root.add(getView().getRechercheImage());
 	}
 
@@ -68,7 +67,7 @@ public class MainPresenter extends Presenter<IMainView, MainPresenter.MyProxy> {
 		registerHandler(getView().getRechercheImage().addClickHandler(new ClickHandler() {
 			@Override
 			public void onClick(ClickEvent event) {
-				openPopupSupp();
+				openPopupRecherche();
 			}
 
 		}));
@@ -78,20 +77,13 @@ public class MainPresenter extends Presenter<IMainView, MainPresenter.MyProxy> {
 		registerHandler(eventBus.addHandler(CodeChoisiEvent.TYPE, new CodeChoisiHandler() {
 			@Override
 			public void onCodeChoisi(CodeChoisiEvent event) {
-				// getView().getCode().setText(event.getCode());
 				Document.get().getElementById("codePck").setAttribute("value", event.getCode());
 			}
 		}));
 
 	}
 
-	private void openPopupSupp() {
+	private void openPopupRecherche() {
 		RevealRootPopupContentEvent.fire(this, rechercheDialogPresenter);
 	}
-
-	public static native void alert(String msg) /*-{
-		$wnd.alert(msg);
-
-	}-*/;
-
 }
