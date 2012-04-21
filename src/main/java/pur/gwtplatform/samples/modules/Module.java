@@ -16,12 +16,12 @@
 
 package pur.gwtplatform.samples.modules;
 
-import pur.gwtplatform.samples.presenter.RechercheDialogPresenter;
 import pur.gwtplatform.samples.presenter.MainPresenter;
-import pur.gwtplatform.samples.views.RechercheDialogView;
-import pur.gwtplatform.samples.views.IRechercheDialogView;
+import pur.gwtplatform.samples.presenter.RechercheDialogPresenter;
 import pur.gwtplatform.samples.views.IMainView;
+import pur.gwtplatform.samples.views.IRechercheDialogView;
 import pur.gwtplatform.samples.views.MainView;
+import pur.gwtplatform.samples.views.RechercheDialogView;
 
 import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
 import com.gwtplatform.mvp.client.gin.DefaultModule;
@@ -37,6 +37,5 @@ public class Module extends AbstractPresenterModule {
 		bindPresenter(MainPresenter.class, IMainView.class, MainView.class, MainPresenter.MyProxy.class);
 		// bind des popups
 		bindSingletonPresenterWidget(RechercheDialogPresenter.class, IRechercheDialogView.class, RechercheDialogView.class);
-
 	}
 }

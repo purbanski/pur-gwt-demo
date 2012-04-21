@@ -7,6 +7,7 @@ import org.fusesource.restygwt.client.Method;
 import org.fusesource.restygwt.client.Resource;
 
 import pur.gwtplatform.samples.events.DicoCompleteEvent;
+import pur.gwtplatform.samples.events.ErreurEvent;
 import pur.gwtplatform.samples.events.SearchCompleteEvent;
 import pur.gwtplatform.samples.model.DicoResult;
 import pur.gwtplatform.samples.model.ElementResult;
@@ -14,7 +15,6 @@ import pur.gwtplatform.samples.model.ElementResult;
 import com.google.gwt.json.client.JSONArray;
 import com.google.gwt.json.client.JSONObject;
 import com.google.gwt.json.client.JSONValue;
-import com.google.gwt.user.client.Window;
 import com.google.inject.Inject;
 import com.google.web.bindery.event.shared.EventBus;
 
@@ -42,7 +42,7 @@ public class MPService {
 				eventBus.fireEvent(new DicoCompleteEvent());
 			}
 			public void onFailure(Method method, Throwable exception) {
-				Window.alert("onFailure: " + exception);
+				eventBus.fireEvent(new ErreurEvent(exception.getLocalizedMessage()));
 			}
 		});
 	}
@@ -67,7 +67,7 @@ public class MPService {
 				eventBus.fireEvent(new SearchCompleteEvent());
 			}
 			public void onFailure(Method method, Throwable exception) {
-				Window.alert("onFailure: " + exception);
+				eventBus.fireEvent(new ErreurEvent(exception.getLocalizedMessage()));
 			}
 		});
 	}

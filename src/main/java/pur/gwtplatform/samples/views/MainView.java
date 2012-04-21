@@ -24,9 +24,11 @@ public class MainView extends ViewImpl implements IMainView {
 	public Widget asWidget() {
 		return widget;
 	}
-	@UiField HTMLPanel htmlPanel;
-	@UiField Image rechercheImage;
 
+	@UiField
+	HTMLPanel htmlPanel;
+	@UiField
+	Image rechercheImage;
 
 	public HTMLPanel getHtmlPanel() {
 		return htmlPanel;
@@ -35,7 +37,5 @@ public class MainView extends ViewImpl implements IMainView {
 	public Image getRechercheImage() {
 		return rechercheImage;
 	}
-
-
 
 }

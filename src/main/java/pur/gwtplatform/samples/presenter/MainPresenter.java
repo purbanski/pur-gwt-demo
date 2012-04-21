@@ -2,6 +2,7 @@ package pur.gwtplatform.samples.presenter;
 
 import pur.gwtplatform.samples.events.CodeChoisiEvent;
 import pur.gwtplatform.samples.events.CodeChoisiEvent.CodeChoisiHandler;
+import pur.gwtplatform.samples.events.ErreurEvent;
 import pur.gwtplatform.samples.modules.NameTokens;
 import pur.gwtplatform.samples.views.IMainView;
 
@@ -9,6 +10,7 @@ import com.google.gwt.dom.client.Document;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.shared.GwtEvent.Type;
+import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.inject.Inject;
 import com.google.web.bindery.event.shared.EventBus;
@@ -18,6 +20,7 @@ import com.gwtplatform.mvp.client.annotations.ContentSlot;
 import com.gwtplatform.mvp.client.annotations.NameToken;
 import com.gwtplatform.mvp.client.annotations.ProxyCodeSplit;
 import com.gwtplatform.mvp.client.proxy.PlaceManager;
+import com.gwtplatform.mvp.client.proxy.PlaceRequest;
 import com.gwtplatform.mvp.client.proxy.ProxyPlace;
 import com.gwtplatform.mvp.client.proxy.RevealContentHandler;
 import com.gwtplatform.mvp.client.proxy.RevealRootContentEvent;
@@ -35,8 +38,8 @@ public class MainPresenter extends Presenter<IMainView, MainPresenter.MyProxy> {
 	}
 
 	@Inject
-	public MainPresenter(EventBus eventBus, IMainView view, MyProxy proxy, PlaceManager placeManager,
-			DispatchAsync dispatcher, RechercheDialogPresenter rechercheDialogPresenter) {
+	public MainPresenter(EventBus eventBus, IMainView view, MyProxy proxy, PlaceManager placeManager, DispatchAsync dispatcher,
+			RechercheDialogPresenter rechercheDialogPresenter) {
 		super(eventBus, view, proxy);
 		this.eventBus = eventBus;
 		this.placeManager = placeManager;
@@ -63,7 +66,7 @@ public class MainPresenter extends Presenter<IMainView, MainPresenter.MyProxy> {
 		root.add(getView().getRechercheImage());
 	}
 
-	private void enregistrerBoutonOuvPopup() {		
+	private void enregistrerBoutonOuvPopup() {
 		registerHandler(getView().getRechercheImage().addClickHandler(new ClickHandler() {
 			@Override
 			public void onClick(ClickEvent event) {
@@ -77,7 +80,17 @@ public class MainPresenter extends Presenter<IMainView, MainPresenter.MyProxy> {
 		registerHandler(eventBus.addHandler(CodeChoisiEvent.TYPE, new CodeChoisiHandler() {
 			@Override
 			public void onCodeChoisi(CodeChoisiEvent event) {
+				//on met met à jour le code de la page HTML avec le code choisi
 				Document.get().getElementById("codePck").setAttribute("value", event.getCode());
+			}
+		}));
+
+		registerHandler(eventBus.addHandler(ErreurEvent.TYPE, new ErreurEvent.ErreurHandler() {
+			@Override
+			public void onErreur(ErreurEvent event) {
+				// si une erreur survient on affiche une popup d'erreur
+				placeManager.revealPlace(new PlaceRequest(NameTokens.error));
+				Window.alert("Une erreur grave est survenue: " + event.getMessage());
 			}
 		}));
 
